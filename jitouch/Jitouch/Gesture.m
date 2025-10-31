@@ -55,9 +55,10 @@ static const int magicTrackpadFamilyIDs[] = {
 #define LEFTBUTTONDOWN 2
 #define RIGHTBUTTONDOWN 3
 #define COMMANDANDLEFTBUTTONDOWN 4
-//#define COMMANDDOWN 5
-#define IGNOREMOUSE 6
-#define IGNOREKEY 7
+#define MOUSEBUTTON4DOWN 5
+#define MOUSEBUTTON5DOWN 6
+#define IGNOREMOUSE 7
+#define IGNOREKEY 8
 
 #define PI 3.1415926535897932384626433832795028841971
 
@@ -633,10 +634,12 @@ static NSString* commandForGesture(NSString *gesture, int device) {
 
 
 static void dispatchCommand(NSString *gesture, int device) {
+    NSLog(@"[Jitouch] 제스처 실행: %@ (디바이스: %d)", gesture, device);
     dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INTERACTIVE, 0), ^{
         NSDate *start = [NSDate date];
         doCommand(gesture, device);
         NSTimeInterval timeInterval = -[start timeIntervalSinceNow];
+        NSLog(@"[Jitouch] 제스처 완료: %@ (소요시간: %.3f초)", gesture, timeInterval);
         if (device >= 0 && device < sizeof(deviceTypeName) / sizeof(deviceTypeName[0]) && logLevel >= LOG_LEVEL_INFO) NSLog(@"Gesture \"%@\" for %@ took %f s", gesture, deviceTypeName[device], timeInterval);
     });
 }
@@ -869,6 +872,38 @@ static void doCommand(NSString *gesture, int device) {
                 CFRelease(eventRef);
 
                 eventRef = CGEventCreateMouseEvent(NULL, kCGEventRightMouseUp, location, kCGMouseButtonRight);
+                CGEventPost(kCGSessionEventTap, eventRef);
+                CFRelease(eventRef);
+            } else if ([command isEqualToString:@"Mouse Button 4"]) {
+                CGEventRef eventRef;
+
+                CGEventRef ourEvent = CGEventCreate(NULL);
+                CGPoint location = CGEventGetLocation(ourEvent);
+                CFRelease(ourEvent);
+
+                eventRef = CGEventCreateMouseEvent(NULL, kCGEventOtherMouseDown, location, kCGMouseButtonCenter);
+                CGEventSetIntegerValueField(eventRef, kCGMouseEventButtonNumber, 3);
+                CGEventPost(kCGSessionEventTap, eventRef);
+                CFRelease(eventRef);
+
+                eventRef = CGEventCreateMouseEvent(NULL, kCGEventOtherMouseUp, location, kCGMouseButtonCenter);
+                CGEventSetIntegerValueField(eventRef, kCGMouseEventButtonNumber, 3);
+                CGEventPost(kCGSessionEventTap, eventRef);
+                CFRelease(eventRef);
+            } else if ([command isEqualToString:@"Mouse Button 5"]) {
+                CGEventRef eventRef;
+
+                CGEventRef ourEvent = CGEventCreate(NULL);
+                CGPoint location = CGEventGetLocation(ourEvent);
+                CFRelease(ourEvent);
+
+                eventRef = CGEventCreateMouseEvent(NULL, kCGEventOtherMouseDown, location, kCGMouseButtonCenter);
+                CGEventSetIntegerValueField(eventRef, kCGMouseEventButtonNumber, 4);
+                CGEventPost(kCGSessionEventTap, eventRef);
+                CFRelease(eventRef);
+
+                eventRef = CGEventCreateMouseEvent(NULL, kCGEventOtherMouseUp, location, kCGMouseButtonCenter);
+                CGEventSetIntegerValueField(eventRef, kCGMouseEventButtonNumber, 4);
                 CGEventPost(kCGSessionEventTap, eventRef);
                 CFRelease(eventRef);
             } else if ([command isEqualToString:@"Refresh"]) {
@@ -2142,6 +2177,9 @@ static int trackpadCallback(MTDeviceRef device, Finger *data, int nFingers, doub
 
                 gestureTrackpadSwipeThreeFingers(data, nFingers);
                 gestureTrackpadSwipeFourFingers(data, nFingers);
+                
+                // 포스터치 제스처 추가
+                gestureTrackpadForceTouchTap(data, nFingers, timestamp);
             }
             gestureTrackpadTwoFixOneDoubleTap(data, nFingers, timestamp);
         }
@@ -2984,6 +3022,14 @@ static CGEventRef CGEventCallback(CGEventTapProxy proxy, CGEventType type, CGEve
                 simulating = RIGHTBUTTONDOWN;
                 CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 1);
                 CGEventSetType(event, kCGEventRightMouseDown);
+            } else if ([command isEqualToString:@"Mouse Button 4"]) {
+                simulating = MOUSEBUTTON4DOWN;
+                CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 3);
+                CGEventSetType(event, kCGEventOtherMouseDown);
+            } else if ([command isEqualToString:@"Mouse Button 5"]) {
+                simulating = MOUSEBUTTON5DOWN;
+                CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 4);
+                CGEventSetType(event, kCGEventOtherMouseDown);
             } else if ([command isEqualToString:@"Open Link in New Tab"]) {
                 simulating = COMMANDANDLEFTBUTTONDOWN;
                 CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 0);
@@ -3020,6 +3066,14 @@ static CGEventRef CGEventCallback(CGEventTapProxy proxy, CGEventType type, CGEve
             CGEventSetType(event, kCGEventRightMouseUp);
             simulating = 0;
             if (logLevel >= LOG_LEVEL_DEBUG) NSLog(@"Simulated RightMouseUp");
+        } else if (simulating == MOUSEBUTTON4DOWN) {
+            CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 3);
+            CGEventSetType(event, kCGEventOtherMouseUp);
+            simulating = 0;
+        } else if (simulating == MOUSEBUTTON5DOWN) {
+            CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 4);
+            CGEventSetType(event, kCGEventOtherMouseUp);
+            simulating = 0;
         } else if (simulating == COMMANDANDLEFTBUTTONDOWN) {
             CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 0);
             CGEventSetFlags(event, kCGEventFlagMaskCommand);
@@ -3048,10 +3102,22 @@ static CGEventRef CGEventCallback(CGEventTapProxy proxy, CGEventType type, CGEve
         } else if (simulating == MIDDLEBUTTONDOWN) {
             CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 2);
             CGEventSetType(event, kCGEventOtherMouseDragged);
+        } else if (simulating == MOUSEBUTTON4DOWN) {
+            CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 3);
+            CGEventSetType(event, kCGEventOtherMouseDragged);
+        } else if (simulating == MOUSEBUTTON5DOWN) {
+            CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 4);
+            CGEventSetType(event, kCGEventOtherMouseDragged);
         }
     } else if (type == kCGEventLeftMouseDragged || type == kCGEventRightMouseDragged) {
         if (simulating == MIDDLEBUTTONDOWN) {
             CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 2);
+            CGEventSetType(event, kCGEventOtherMouseDragged);
+        } else if (simulating == MOUSEBUTTON4DOWN) {
+            CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 3);
+            CGEventSetType(event, kCGEventOtherMouseDragged);
+        } else if (simulating == MOUSEBUTTON5DOWN) {
+            CGEventSetIntegerValueField(event, kCGMouseEventButtonNumber, 4);
             CGEventSetType(event, kCGEventOtherMouseDragged);
         }
     } else if (type == kCGEventTapDisabledByUserInput) {
@@ -4290,6 +4356,95 @@ static void trackpadRecognizerTwo(const Finger *data, int nFingers, double times
             step = 0;
         if (nFingers == 3) {
             step = 0;
+        }
+    }
+}
+
+#pragma mark - Force Touch Gestures
+
+// 포스터치 제스처 감지 (간단한 버전)
+static void gestureTrackpadForceTouchTap(const Finger *data, int nFingers, double timestamp) {
+    static int step = 0;
+    static double sttime = -1;
+    static float startPressure[3] = {0, 0, 0};
+    static float startPos[3][2];
+    
+    if (step == 0 && (nFingers == 1 || nFingers == 2 || nFingers == 3)) {
+        // 제스처 시작
+        NSLog(@"[Jitouch] 포스터치 제스처 시작: %d손가락", nFingers);
+        step = 1;
+        sttime = timestamp;
+        for (int i = 0; i < nFingers; i++) {
+            startPressure[i] = data[i].size;
+            startPos[i][0] = data[i].px;
+            startPos[i][1] = data[i].py;
+            NSLog(@"[Jitouch] 손가락 %d: 초기압력=%.3f, 위치=(%.3f, %.3f)", i, startPressure[i], startPos[i][0], startPos[i][1]);
+        }
+    } else if (step == 1) {
+        if (timestamp - sttime > clickSpeed * 2 || nFingers == 0) {
+            step = 0;
+            sttime = -1;
+            return;
+        }
+        
+        // 위치 변화가 너무 크면 취소
+        BOOL positionChanged = NO;
+        for (int i = 0; i < nFingers; i++) {
+            if (lenSqr(startPos[i][0], startPos[i][1], data[i].px, data[i].py) > 0.001) {
+                positionChanged = YES;
+                break;
+            }
+        }
+        
+        if (positionChanged) {
+            step = 0;
+            sttime = -1;
+            return;
+        }
+        
+        // 압력 변화 감지
+        float avgPressureRatio = 0;
+        for (int i = 0; i < nFingers; i++) {
+            avgPressureRatio += data[i].size / startPressure[i];
+        }
+        avgPressureRatio /= nFingers;
+        
+        // 압력이 임계값을 넘으면 제스처 실행
+        NSLog(@"[Jitouch] 포스터치 감지: %d손가락, 압력비율=%.2f", nFingers, avgPressureRatio);
+        
+        if (avgPressureRatio > 1.8) { // 강한 포스터치
+            NSLog(@"[Jitouch] 강한 포스터치 감지!");
+            if (nFingers == 1) {
+                dispatchCommand(@"One-Finger Force Touch Heavy", TRACKPAD);
+            } else if (nFingers == 2) {
+                dispatchCommand(@"Two-Finger Force Touch Heavy", TRACKPAD);
+            } else if (nFingers == 3) {
+                dispatchCommand(@"Three-Finger Force Touch Heavy", TRACKPAD);
+            }
+            step = 0;
+            sttime = -1;
+        } else if (avgPressureRatio > 1.4) { // 중간 포스터치
+            NSLog(@"[Jitouch] 중간 포스터치 감지!");
+            if (nFingers == 1) {
+                dispatchCommand(@"One-Finger Force Touch Medium", TRACKPAD);
+            } else if (nFingers == 2) {
+                dispatchCommand(@"Two-Finger Force Touch Medium", TRACKPAD);
+            } else if (nFingers == 3) {
+                dispatchCommand(@"Three-Finger Force Touch Medium", TRACKPAD);
+            }
+            step = 0;
+            sttime = -1;
+        } else if (avgPressureRatio > 1.2) { // 가벼운 포스터치
+            NSLog(@"[Jitouch] 가벼운 포스터치 감지!");
+            if (nFingers == 1) {
+                dispatchCommand(@"One-Finger Force Touch Light", TRACKPAD);
+            } else if (nFingers == 2) {
+                dispatchCommand(@"Two-Finger Force Touch Light", TRACKPAD);
+            } else if (nFingers == 3) {
+                dispatchCommand(@"Three-Finger Force Touch Light", TRACKPAD);
+            }
+            step = 0;
+            sttime = -1;
         }
     }
 }

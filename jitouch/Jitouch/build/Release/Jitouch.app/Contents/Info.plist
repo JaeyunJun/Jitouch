@@ -48,8 +48,10 @@
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.13</string>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>Jitouch needs accessibility access to detect trackpad and mouse gestures system-wide.</string>
 	<key>NSAppleEventsUsageDescription</key>
-	<string></string>
+	<string>Jitouch needs Apple Events access to control other applications with gestures.</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2021 Supasorn Suwajanakorn and Sukolsak Sakshuwong. All rights reserved.</string>
 	<key>NSMainNibFile</key>

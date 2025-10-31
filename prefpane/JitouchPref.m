@@ -65,9 +65,6 @@ CFMachPortRef eventTap;
     } else if (sender == sdSensitivity) {
         stvt = [sender floatValue];
         [Settings setKey:@"Sensitivity" withFloat:[sender floatValue]];
-    } else if (sender == loggingMode) {
-        logLevel = (int)[sender selectedTag];
-        [Settings setKey:@"LogLevel" withInt:(int)[[sender selectedItem] tag]];
     }
     [Settings noteSettingsUpdated];
 }
@@ -247,7 +244,6 @@ static CGEventRef CGEventCallback(CGEventTapProxy proxy, CGEventType type, CGEve
     [cbShowIcon setState:[[settings objectForKey:@"ShowIcon"] intValue]];
     [sdClickSpeed setFloatValue:0.5-clickSpeed];
     [sdSensitivity setFloatValue:stvt];
-    [loggingMode selectItemWithTag:logLevel];
 
     [self enUpdated];
 

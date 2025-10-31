@@ -78,8 +78,8 @@
                    @"Four-Swipe-Right",
                    @"Pinky-To-Index",
                    @"Index-To-Pinky",
-                      @"Left-Side Scroll",
-                      @"Right-Side Scroll",
+                   @"Left-Side Scroll",
+                   @"Right-Side Scroll",
                    @"All Unassigned Gestures",
                    nil];
 
@@ -400,8 +400,6 @@
         [shortcutTextField setEnabled:NO];
     } else {
         NSMutableArray *builtinCommands = [NSMutableArray arrayWithObjects:
-                                           @"Previous Tab",
-                                           @"Next Tab",
                                            @"Open Link in New Tab",
                                            @"Close / Close Tab",
                                            @"Open Recently Closed Tab",
@@ -431,6 +429,8 @@
                                            @"Left Click",
                                            @"Middle Click",
                                            @"Right Click",
+                                           @"Mouse Button 4",
+                                           @"Mouse Button 5",
                                            @"---",
                                            @"Play / Pause",
                                            @"Next",
@@ -439,7 +439,7 @@
                                            @"Volume Down",
                                            @"---",
                                            @"Launch Browser",
-                                             @"Launch Finder",
+                                           @"Launch Finder",
                                            @"Open File...",
                                            @"Open Website...",
                                            nil];

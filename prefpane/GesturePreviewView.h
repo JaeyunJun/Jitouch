@@ -17,7 +17,7 @@ typedef struct {
 } FingerGesture;
 
 typedef struct {
-    FingerGesture fg[10];
+    FingerGesture fg[20];
     int n;
     double t;
     int type;

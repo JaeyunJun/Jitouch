@@ -19,7 +19,7 @@ After opening the Jitouch preference pane in System Preferences, a prompt should
 - Go to the folder `/Library/PreferencePanes/Jitouch.prefPane/Contents/Resources/` in Finder. If you installed Jitouch for your user only, replace `/Library` with `~/Library`. This folder should contain an application named Jitouch.app.
 - Open System Preferences and go to "Security & Privacy -> Privacy -> Accessibility", which is a list labeled "Allow these apps to control your computer".
 - Click the lock to make changes, then drag Jitouch.app from Finder into that list.
-- Force restart Jitouch with `killall Jitouch` in the Terminal.
+- Restart Jitouch with `killall Jitouch` in the Terminal.
 
 ## How to build from source
 

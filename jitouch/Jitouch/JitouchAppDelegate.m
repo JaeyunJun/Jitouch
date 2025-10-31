@@ -148,7 +148,39 @@ CGKeyCode keyMap[128]; // for dvorak support
 
 
 - (void)checkAXAPI {
-    AXIsProcessTrustedWithOptions((CFDictionaryRef)@{(id)kAXTrustedCheckOptionPrompt: @(YES)});
+    // 먼저 권한이 있는지 확인 (팝업 없이)
+    BOOL hasPermission = AXIsProcessTrusted();
+    
+    NSLog(@"[Jitouch] 접근성 권한 상태: %@", hasPermission ? @"허용됨" : @"거부됨");
+    
+    if (!hasPermission) {
+        NSLog(@"[Jitouch] 접근성 권한이 없습니다. 권한 요청 팝업을 표시합니다.");
+        // 권한이 없을 때만 팝업 표시
+        AXIsProcessTrustedWithOptions((CFDictionaryRef)@{(id)kAXTrustedCheckOptionPrompt: @(YES)});
+    } else {
+        NSLog(@"[Jitouch] 접근성 권한이 있습니다. 제스처 감지를 시작합니다.");
+    }
+}
+
+// 권한 상태를 주기적으로 체크하는 메서드 추가
+- (void)startPermissionMonitoring {
+    [NSTimer scheduledTimerWithTimeInterval:10.0 target:self selector:@selector(checkPermissionStatus) userInfo:nil repeats:YES];
+}
+
+- (void)checkPermissionStatus {
+    BOOL hasPermission = AXIsProcessTrusted();
+    static BOOL lastPermissionState = NO;
+    
+    if (hasPermission != lastPermissionState) {
+        NSLog(@"[Jitouch] 권한 상태 변경: %@ -> %@", 
+              lastPermissionState ? @"허용됨" : @"거부됨",
+              hasPermission ? @"허용됨" : @"거부됨");
+        lastPermissionState = hasPermission;
+        
+        if (!hasPermission) {
+            NSLog(@"[Jitouch] 경고: 접근성 권한이 취소되었습니다!");
+        }
+    }
 }
 
 /*
@@ -193,6 +225,7 @@ void languageChanged(CFNotificationCenterRef center, void *observer, CFStringRef
     //[self showIcon];
 
     [self checkAXAPI];
+    [self startPermissionMonitoring];
 
     [[NSDistributedNotificationCenter defaultCenter] addObserver: self
                                                         selector: @selector(settingsUpdated:)

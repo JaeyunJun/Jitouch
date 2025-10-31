@@ -121,8 +121,6 @@ static int notSynchronize;
 
 + (void)trackpadDefault {
     NSMutableArray *gestures1 = [[NSMutableArray alloc] init];
-    ADD_GESTURE(gestures1, @"One-Fix Left-Tap", @"Previous Tab");
-    ADD_GESTURE(gestures1, @"One-Fix Right-Tap", @"Next Tab");
     ADD_GESTURE(gestures1, @"One-Fix One-Slide", @"Move / Resize");
     ADD_GESTURE(gestures1, @"One-Fix Two-Slide-Down", @"Close / Close Tab");
     ADD_GESTURE(gestures1, @"One-Fix-Press Two-Slide-Down", @"Quit");
@@ -130,6 +128,7 @@ static int notSynchronize;
     ADD_GESTURE(gestures1, @"Three-Finger Tap", @"Middle Click");
     ADD_GESTURE(gestures1, @"Pinky-To-Index", @"Zoom");
     ADD_GESTURE(gestures1, @"Index-To-Pinky", @"Minimize");
+    
     //ADD_GESTURE(gestures1, @"Left-Side Scroll", @"Auto Scroll");
 
     NSDictionary *app1 = [NSDictionary dictionaryWithObjectsAndKeys:@"All Applications", @"Application", @"", @"Path", gestures1, @"Gestures", nil];
@@ -145,8 +144,6 @@ static int notSynchronize;
 
 + (void)magicMouseDefault {
     NSMutableArray *gestures1 = [[NSMutableArray alloc] init];
-    ADD_GESTURE(gestures1, @"Middle-Fix Index-Near-Tap", @"Next Tab");
-    ADD_GESTURE(gestures1, @"Middle-Fix Index-Far-Tap", @"Previous Tab");
     ADD_GESTURE(gestures1, @"Middle-Fix Index-Slide-Out", @"Close / Close Tab");
     ADD_GESTURE(gestures1, @"Middle-Fix Index-Slide-In", @"Refresh");
     ADD_GESTURE(gestures1, @"Three-Swipe-Up", @"Show Desktop");

@@ -20,7 +20,6 @@ NSMutableDictionary *recognitionMap;
 float clickSpeed;
 float stvt;
 int enAll;
-int logLevel;
 
 //Trackpad
 int enTPAll;
@@ -182,7 +181,6 @@ static int notSynchronize;
     [Settings setKey:@"Sensitivity" withFloat:4.6666];
     [Settings setKey:@"ShowIcon" withInt:1];
     [Settings setKey:@"Revision" withInt:kCurrentRevision];
-    [Settings setKey:@"LogLevel" withInt:0];
 
     //Trackpad
     [Settings setKey:@"enTPAll" withInt:1];
@@ -224,7 +222,6 @@ static int notSynchronize;
     enAll = [[settings objectForKey:@"enAll"] intValue];
     clickSpeed = [[settings objectForKey:@"ClickSpeed"] floatValue];
     stvt = [[settings objectForKey:@"Sensitivity"] floatValue];
-    logLevel = [[settings objectForKey:@"LogLevel"] intValue];
 
     //Trackpad
     enTPAll = [[settings objectForKey:@"enTPAll"] intValue];
@@ -377,7 +374,7 @@ static int notSynchronize;
 
     NSString *plistPath = [@"~/Library/Preferences/com.jitouch.Jitouch.plist" stringByStandardizingPath];
     if (![[NSFileManager defaultManager] fileExistsAtPath:plistPath]) {
-        NSLog(@"Could not find preferences at %@, creating default plist.", plistPath);
+        // Could not find preferences, creating default plist
         [Settings createDefaultPlist];
         hasPreviousVersion = YES; //may have .. because the previous version doesn't have plist
     } else {
@@ -400,7 +397,7 @@ static int notSynchronize;
                                  informativeTextWithFormat:@"Your jitouch preference file is out of date. Would you like to use the new default settings? Your current settings will be permanently deleted.\n\nAlternately, you may later click \"Restore Defaults\" to use the new default settings."];
             NSModalResponse response = [alert runModal];
             if (response == NSModalResponseOK) {
-                NSLog(@"Received OK, creating default plist.");
+                // Received OK, creating default plist
                 [Settings createDefaultPlist];
                 [settings release];
                 NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
