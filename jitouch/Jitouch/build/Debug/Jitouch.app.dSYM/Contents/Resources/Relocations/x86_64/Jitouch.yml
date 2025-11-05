@@ -2,435 +2,425 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/jaeyunmac/bluefrog-github/Jitouch/jitouch/Jitouch/build/Debug/Jitouch.app/Contents/MacOS/Jitouch'
 relocations:
-  - { offset: 0x755DE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000FF0, symSize: 0x80 }
-  - { offset: 0x755F4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000FF0, symSize: 0x80 }
-  - { offset: 0x7563C, size: 0x8, addend: 0x0, symName: ___main_block_invoke, symObjAddr: 0x80, symBinAddr: 0x100001070, symSize: 0x40 }
-  - { offset: 0x75666, size: 0x8, addend: 0x0, symName: ___main_block_invoke_2, symObjAddr: 0xC0, symBinAddr: 0x1000010B0, symSize: 0x3D }
-  - { offset: 0x757A8, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate unloadJitouchLaunchAgent]', symObjAddr: 0x0, symBinAddr: 0x1000010F0, symSize: 0x90 }
-  - { offset: 0x757F5, size: 0x8, addend: 0x0, symName: _cursorWindow, symObjAddr: 0x52B0, symBinAddr: 0x100026420, symSize: 0x0 }
-  - { offset: 0x75834, size: 0x8, addend: 0x0, symName: _keyMap, symObjAddr: 0x52C0, symBinAddr: 0x100026430, symSize: 0x0 }
-  - { offset: 0x75902, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate unloadJitouchLaunchAgent]', symObjAddr: 0x0, symBinAddr: 0x1000010F0, symSize: 0x90 }
-  - { offset: 0x75964, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate validateMenuItem:]', symObjAddr: 0x90, symBinAddr: 0x100001180, symSize: 0x20 }
-  - { offset: 0x759AC, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate showIcon]', symObjAddr: 0xB0, symBinAddr: 0x1000011A0, symSize: 0x1F0 }
-  - { offset: 0x759F0, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate hideIcon]', symObjAddr: 0x2A0, symBinAddr: 0x100001390, symSize: 0x60 }
-  - { offset: 0x75A25, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate updateIconImage]', symObjAddr: 0x300, symBinAddr: 0x1000013F0, symSize: 0xC0 }
-  - { offset: 0x75A96, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate preferences:]', symObjAddr: 0x3C0, symBinAddr: 0x1000014B0, symSize: 0x160 }
-  - { offset: 0x75B07, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate quit:]', symObjAddr: 0x520, symBinAddr: 0x100001610, symSize: 0x50 }
-  - { offset: 0x75B4B, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate refreshMenu]', symObjAddr: 0x570, symBinAddr: 0x100001660, symSize: 0x150 }
-  - { offset: 0x75B80, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate switchChange:]', symObjAddr: 0x6C0, symBinAddr: 0x1000017B0, symSize: 0x70 }
-  - { offset: 0x75BC4, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate saveSettings]', symObjAddr: 0x730, symBinAddr: 0x100001820, symSize: 0x50 }
-  - { offset: 0x75BF9, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate settingsUpdated:]', symObjAddr: 0x780, symBinAddr: 0x100001870, symSize: 0x70 }
-  - { offset: 0x75C3D, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate checkAXAPI]', symObjAddr: 0x7F0, symBinAddr: 0x1000018E0, symSize: 0xA0 }
-  - { offset: 0x75C72, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate applicationDidFinishLaunching:]', symObjAddr: 0x890, symBinAddr: 0x100001980, symSize: 0x130 }
-  - { offset: 0x75CB6, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate wokeUp:]', symObjAddr: 0x9C0, symBinAddr: 0x100001AB0, symSize: 0x40 }
-  - { offset: 0x75CFA, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate reload]', symObjAddr: 0xA00, symBinAddr: 0x100001AF0, symSize: 0x30 }
-  - { offset: 0x75D2F, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate dealloc]', symObjAddr: 0xA30, symBinAddr: 0x100001B20, symSize: 0x50 }
-  - { offset: 0x75D64, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate window]', symObjAddr: 0xA80, symBinAddr: 0x100001B70, symSize: 0x20 }
-  - { offset: 0x75D9D, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate setWindow:]', symObjAddr: 0xAA0, symBinAddr: 0x100001B90, symSize: 0x1E }
-  - { offset: 0x75E59, size: 0x8, addend: 0x0, symName: _turnOffGestures, symObjAddr: 0x0, symBinAddr: 0x100001BB0, symSize: 0x20 }
-  - { offset: 0x75E84, size: 0x8, addend: 0x0, symName: _eventTapTries, symObjAddr: 0x2F1F8, symBinAddr: 0x100026538, symSize: 0x0 }
-  - { offset: 0x75EA2, size: 0x8, addend: 0x0, symName: _eventTap, symObjAddr: 0x2F208, symBinAddr: 0x1000265D8, symSize: 0x0 }
-  - { offset: 0x75EFC, size: 0x8, addend: 0x0, symName: _recreatingEventTap, symObjAddr: 0x2F210, symBinAddr: 0x1000265E0, symSize: 0x0 }
-  - { offset: 0x75F1A, size: 0x8, addend: 0x0, symName: _lastTwoFingerDate, symObjAddr: 0x2F220, symBinAddr: 0x1000265F0, symSize: 0x0 }
-  - { offset: 0x75F36, size: 0x8, addend: 0x0, symName: _lastThreeFingerDate, symObjAddr: 0x2F228, symBinAddr: 0x1000265F8, symSize: 0x0 }
-  - { offset: 0x75F4C, size: 0x8, addend: 0x0, symName: _gestureWindow, symObjAddr: 0x2F230, symBinAddr: 0x100026600, symSize: 0x0 }
-  - { offset: 0x75FA4, size: 0x8, addend: 0x0, symName: _me, symObjAddr: 0x2F200, symBinAddr: 0x1000265D0, symSize: 0x0 }
-  - { offset: 0x75FD1, size: 0x8, addend: 0x0, symName: _sizeHistoryDict, symObjAddr: 0x2F238, symBinAddr: 0x100026608, symSize: 0x0 }
-  - { offset: 0x75FED, size: 0x8, addend: 0x0, symName: _keyUtil, symObjAddr: 0x2F240, symBinAddr: 0x100026610, symSize: 0x0 }
-  - { offset: 0x76027, size: 0x8, addend: 0x0, symName: _deviceList, symObjAddr: 0x2F1F0, symBinAddr: 0x100026530, symSize: 0x0 }
-  - { offset: 0x7603E, size: 0x8, addend: 0x0, symName: _hint_firstPos, symObjAddr: 0x2F248, symBinAddr: 0x100026618, symSize: 0x0 }
-  - { offset: 0x7606B, size: 0x8, addend: 0x0, symName: _hint_x, symObjAddr: 0x2F250, symBinAddr: 0x100026620, symSize: 0x0 }
-  - { offset: 0x76082, size: 0x8, addend: 0x0, symName: _hint_y, symObjAddr: 0x2F254, symBinAddr: 0x100026624, symSize: 0x0 }
-  - { offset: 0x76099, size: 0x8, addend: 0x0, symName: _hint_top, symObjAddr: 0x2F258, symBinAddr: 0x100026628, symSize: 0x0 }
-  - { offset: 0x760B0, size: 0x8, addend: 0x0, symName: _hint_bottom, symObjAddr: 0x2F25C, symBinAddr: 0x10002662C, symSize: 0x0 }
-  - { offset: 0x760C7, size: 0x8, addend: 0x0, symName: _hint_left, symObjAddr: 0x2F260, symBinAddr: 0x100026630, symSize: 0x0 }
-  - { offset: 0x760DE, size: 0x8, addend: 0x0, symName: _hint_right, symObjAddr: 0x2F264, symBinAddr: 0x100026634, symSize: 0x0 }
-  - { offset: 0x760F4, size: 0x8, addend: 0x0, symName: _trackpadNFingers, symObjAddr: 0x2F268, symBinAddr: 0x100026638, symSize: 0x0 }
-  - { offset: 0x7610A, size: 0x8, addend: 0x0, symName: _middleClickFlag, symObjAddr: 0x2F26C, symBinAddr: 0x10002663C, symSize: 0x0 }
-  - { offset: 0x76120, size: 0x8, addend: 0x0, symName: _magicMouseThreeFingerFlag, symObjAddr: 0x2F270, symBinAddr: 0x100026640, symSize: 0x0 }
-  - { offset: 0x76136, size: 0x8, addend: 0x0, symName: _simulating, symObjAddr: 0x2F274, symBinAddr: 0x100026644, symSize: 0x0 }
-  - { offset: 0x7614C, size: 0x8, addend: 0x0, symName: _disableHorizontalScroll, symObjAddr: 0x2F278, symBinAddr: 0x100026648, symSize: 0x0 }
-  - { offset: 0x76162, size: 0x8, addend: 0x0, symName: _quickTabSwitching, symObjAddr: 0x2F27C, symBinAddr: 0x10002664C, symSize: 0x0 }
-  - { offset: 0x76178, size: 0x8, addend: 0x0, symName: _isTrackpadRecognizing, symObjAddr: 0x2F280, symBinAddr: 0x100026650, symSize: 0x0 }
-  - { offset: 0x7618E, size: 0x8, addend: 0x0, symName: _isMouseRecognizing, symObjAddr: 0x2F284, symBinAddr: 0x100026654, symSize: 0x0 }
-  - { offset: 0x76198, size: 0x8, addend: 0x0, symName: _trackpadCallback, symObjAddr: 0x550, symBinAddr: 0x100002100, symSize: 0xA80 }
-  - { offset: 0x761C0, size: 0x8, addend: 0x0, symName: _trackpadCallback.thumbId, symObjAddr: 0x186A4, symBinAddr: 0x1000262E4, symSize: 0x0 }
-  - { offset: 0x763A8, size: 0x8, addend: 0x0, symName: _twoFingersDistance, symObjAddr: 0x186A0, symBinAddr: 0x1000262E0, symSize: 0x0 }
-  - { offset: 0x763BE, size: 0x8, addend: 0x0, symName: _trackpadHasTwoFingers, symObjAddr: 0x2F288, symBinAddr: 0x100026658, symSize: 0x0 }
-  - { offset: 0x763C8, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo, symObjAddr: 0x6400, symBinAddr: 0x100007FB0, symSize: 0xA60 }
-  - { offset: 0x763EC, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.lpos, symObjAddr: 0x2F28C, symBinAddr: 0x10002665C, symSize: 0x0 }
-  - { offset: 0x76403, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.step, symObjAddr: 0x2F294, symBinAddr: 0x100026664, symSize: 0x0 }
-  - { offset: 0x76427, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.firstPos, symObjAddr: 0x2F298, symBinAddr: 0x100026668, symSize: 0x0 }
-  - { offset: 0x7643E, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.top, symObjAddr: 0x2F2A0, symBinAddr: 0x100026670, symSize: 0x0 }
-  - { offset: 0x76455, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.bottom, symObjAddr: 0x2F2A4, symBinAddr: 0x100026674, symSize: 0x0 }
-  - { offset: 0x7646C, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.left, symObjAddr: 0x2F2A8, symBinAddr: 0x100026678, symSize: 0x0 }
-  - { offset: 0x76483, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.right, symObjAddr: 0x2F2AC, symBinAddr: 0x10002667C, symSize: 0x0 }
-  - { offset: 0x7649A, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.fing, symObjAddr: 0x2F2B0, symBinAddr: 0x100026680, symSize: 0x0 }
-  - { offset: 0x764B1, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.sttime, symObjAddr: 0x2F2C0, symBinAddr: 0x100026690, symSize: 0x0 }
-  - { offset: 0x764C8, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.commandString, symObjAddr: 0x2F2C8, symBinAddr: 0x100026698, symSize: 0x0 }
-  - { offset: 0x764DF, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.hintTime, symObjAddr: 0x2F2D0, symBinAddr: 0x1000266A0, symSize: 0x0 }
-  - { offset: 0x764F6, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.distCounter, symObjAddr: 0x2F2D8, symBinAddr: 0x1000266A8, symSize: 0x0 }
-  - { offset: 0x765E5, size: 0x8, addend: 0x0, symName: _nChars, symObjAddr: 0x2F2E0, symBinAddr: 0x1000266B0, symSize: 0x0 }
-  - { offset: 0x765FB, size: 0x8, addend: 0x0, symName: _chars, symObjAddr: 0x2F2F0, symBinAddr: 0x1000266C0, symSize: 0x0 }
-  - { offset: 0x766AE, size: 0x8, addend: 0x0, symName: _emptyString, symObjAddr: 0x186A8, symBinAddr: 0x1000262E8, symSize: 0x0 }
-  - { offset: 0x766C4, size: 0x8, addend: 0x0, symName: _cancelRecognition, symObjAddr: 0x2F2DC, symBinAddr: 0x1000266AC, symSize: 0x0 }
-  - { offset: 0x766E1, size: 0x8, addend: 0x0, symName: _findTabGroup_lx, symObjAddr: 0x32810, symBinAddr: 0x100029BE0, symSize: 0x0 }
-  - { offset: 0x76705, size: 0x8, addend: 0x0, symName: _deviceTypeName, symObjAddr: 0x186B0, symBinAddr: 0x1000262F0, symSize: 0x0 }
-  - { offset: 0x76735, size: 0x8, addend: 0x0, symName: _normPdf, symObjAddr: 0x32820, symBinAddr: 0x100029BF0, symSize: 0x0 }
-  - { offset: 0x76759, size: 0x8, addend: 0x0, symName: _normIPdf, symObjAddr: 0x32B50, symBinAddr: 0x100029F20, symSize: 0x0 }
-  - { offset: 0x76763, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne, symObjAddr: 0x6E60, symBinAddr: 0x100008A10, symSize: 0x830 }
-  - { offset: 0x76787, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.lpos, symObjAddr: 0x32E74, symBinAddr: 0x10002A244, symSize: 0x0 }
-  - { offset: 0x7679E, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.step, symObjAddr: 0x32E7C, symBinAddr: 0x10002A24C, symSize: 0x0 }
-  - { offset: 0x767C2, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.firstPos, symObjAddr: 0x32E80, symBinAddr: 0x10002A250, symSize: 0x0 }
-  - { offset: 0x767D9, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.top, symObjAddr: 0x32E88, symBinAddr: 0x10002A258, symSize: 0x0 }
-  - { offset: 0x767F0, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.bottom, symObjAddr: 0x32E8C, symBinAddr: 0x10002A25C, symSize: 0x0 }
-  - { offset: 0x76807, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.left, symObjAddr: 0x32E90, symBinAddr: 0x10002A260, symSize: 0x0 }
-  - { offset: 0x7681E, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.right, symObjAddr: 0x32E94, symBinAddr: 0x10002A264, symSize: 0x0 }
-  - { offset: 0x76835, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.sttime, symObjAddr: 0x186C8, symBinAddr: 0x100026308, symSize: 0x0 }
-  - { offset: 0x7684C, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.fing, symObjAddr: 0x32EA0, symBinAddr: 0x10002A270, symSize: 0x0 }
-  - { offset: 0x76863, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.fixId, symObjAddr: 0x32EB0, symBinAddr: 0x10002A280, symSize: 0x0 }
-  - { offset: 0x7687A, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.hintTime, symObjAddr: 0x32EB8, symBinAddr: 0x10002A288, symSize: 0x0 }
-  - { offset: 0x76891, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.mx, symObjAddr: 0x32EC0, symBinAddr: 0x10002A290, symSize: 0x0 }
-  - { offset: 0x768A8, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.my, symObjAddr: 0x32EC8, symBinAddr: 0x10002A298, symSize: 0x0 }
-  - { offset: 0x76923, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize, symObjAddr: 0x7690, symBinAddr: 0x100009240, symSize: 0xD20 }
-  - { offset: 0x7694B, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.step, symObjAddr: 0x32ED0, symBinAddr: 0x10002A2A0, symSize: 0x0 }
-  - { offset: 0x76962, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.step2, symObjAddr: 0x32ED4, symBinAddr: 0x10002A2A4, symSize: 0x0 }
-  - { offset: 0x76979, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.min, symObjAddr: 0x32ED8, symBinAddr: 0x10002A2A8, symSize: 0x0 }
-  - { offset: 0x76990, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.fing, symObjAddr: 0x32EE0, symBinAddr: 0x10002A2B0, symSize: 0x0 }
-  - { offset: 0x769A7, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.fing2, symObjAddr: 0x32EF0, symBinAddr: 0x10002A2C0, symSize: 0x0 }
-  - { offset: 0x769BE, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.sttime, symObjAddr: 0x186D0, symBinAddr: 0x100026310, symSize: 0x0 }
-  - { offset: 0x769D5, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.type, symObjAddr: 0x32F00, symBinAddr: 0x10002A2D0, symSize: 0x0 }
-  - { offset: 0x769EC, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.cWindow, symObjAddr: 0x32F08, symBinAddr: 0x10002A2D8, symSize: 0x0 }
-  - { offset: 0x76A03, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.baseX, symObjAddr: 0x32F10, symBinAddr: 0x10002A2E0, symSize: 0x0 }
-  - { offset: 0x76A1A, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.baseY, symObjAddr: 0x32F18, symBinAddr: 0x10002A2E8, symSize: 0x0 }
-  - { offset: 0x76A31, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.appX, symObjAddr: 0x32F20, symBinAddr: 0x10002A2F0, symSize: 0x0 }
-  - { offset: 0x76A48, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.appY, symObjAddr: 0x32F28, symBinAddr: 0x10002A2F8, symSize: 0x0 }
-  - { offset: 0x76A5F, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.firstTime, symObjAddr: 0x32F30, symBinAddr: 0x10002A300, symSize: 0x0 }
-  - { offset: 0x76B37, size: 0x8, addend: 0x0, symName: _moveResizeFlag, symObjAddr: 0x32F34, symBinAddr: 0x10002A304, symSize: 0x0 }
-  - { offset: 0x76B4D, size: 0x8, addend: 0x0, symName: _shouldExitMoveResize, symObjAddr: 0x32F38, symBinAddr: 0x10002A308, symSize: 0x0 }
-  - { offset: 0x76B57, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll, symObjAddr: 0x83B0, symBinAddr: 0x100009F60, symSize: 0x420 }
-  - { offset: 0x76B7B, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.sttime, symObjAddr: 0x32F40, symBinAddr: 0x10002A310, symSize: 0x0 }
-  - { offset: 0x76B92, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.step, symObjAddr: 0x32F48, symBinAddr: 0x10002A318, symSize: 0x0 }
-  - { offset: 0x76BA9, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.midY, symObjAddr: 0x32F4C, symBinAddr: 0x10002A31C, symSize: 0x0 }
-  - { offset: 0x76BC0, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.startAlready, symObjAddr: 0x32F50, symBinAddr: 0x10002A320, symSize: 0x0 }
-  - { offset: 0x76BD7, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.shouldCheck, symObjAddr: 0x186D8, symBinAddr: 0x100026318, symSize: 0x0 }
-  - { offset: 0x76BEE, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.chk, symObjAddr: 0x32F54, symBinAddr: 0x10002A324, symSize: 0x0 }
-  - { offset: 0x76CA2, size: 0x8, addend: 0x0, symName: _autoScrollFlag, symObjAddr: 0x32F5C, symBinAddr: 0x10002A32C, symSize: 0x0 }
-  - { offset: 0x76CAC, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap, symObjAddr: 0x87D0, symBinAddr: 0x10000A380, symSize: 0x450 }
-  - { offset: 0x76CD0, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.sttime, symObjAddr: 0x186E0, symBinAddr: 0x100026320, symSize: 0x0 }
-  - { offset: 0x76CE7, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.fing, symObjAddr: 0x32F60, symBinAddr: 0x10002A330, symSize: 0x0 }
-  - { offset: 0x76CFE, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.step, symObjAddr: 0x32F70, symBinAddr: 0x10002A340, symSize: 0x0 }
-  - { offset: 0x76D15, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.restTime, symObjAddr: 0x186E8, symBinAddr: 0x100026328, symSize: 0x0 }
-  - { offset: 0x76D2C, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.fixId, symObjAddr: 0x32F74, symBinAddr: 0x10002A344, symSize: 0x0 }
-  - { offset: 0x76D43, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.avgx, symObjAddr: 0x32F78, symBinAddr: 0x10002A348, symSize: 0x0 }
-  - { offset: 0x76D5A, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.avgy, symObjAddr: 0x32F7C, symBinAddr: 0x10002A34C, symSize: 0x0 }
-  - { offset: 0x76D95, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap, symObjAddr: 0x8C20, symBinAddr: 0x10000A7D0, symSize: 0x400 }
-  - { offset: 0x76DB9, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap.sttime, symObjAddr: 0x186F0, symBinAddr: 0x100026330, symSize: 0x0 }
-  - { offset: 0x76DD0, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap.step, symObjAddr: 0x32F80, symBinAddr: 0x10002A350, symSize: 0x0 }
-  - { offset: 0x76DE7, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap.fing, symObjAddr: 0x32F90, symBinAddr: 0x10002A360, symSize: 0x0 }
-  - { offset: 0x76DFE, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap.idf, symObjAddr: 0x32FC0, symBinAddr: 0x10002A390, symSize: 0x0 }
-  - { offset: 0x76EC5, size: 0x8, addend: 0x0, symName: _trackpadClicked, symObjAddr: 0x32FCC, symBinAddr: 0x10002A39C, symSize: 0x0 }
-  - { offset: 0x76ECF, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide, symObjAddr: 0x9020, symBinAddr: 0x10000ABD0, symSize: 0x730 }
-  - { offset: 0x76EF3, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.ena, symObjAddr: 0x32FD0, symBinAddr: 0x10002A3A0, symSize: 0x0 }
-  - { offset: 0x76F0A, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.min, symObjAddr: 0x32FD4, symBinAddr: 0x10002A3A4, symSize: 0x0 }
-  - { offset: 0x76F21, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.find, symObjAddr: 0x32FD8, symBinAddr: 0x10002A3A8, symSize: 0x0 }
-  - { offset: 0x76F38, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.findc, symObjAddr: 0x32FE4, symBinAddr: 0x10002A3B4, symSize: 0x0 }
-  - { offset: 0x76F4F, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.avgy, symObjAddr: 0x32FE8, symBinAddr: 0x10002A3B8, symSize: 0x0 }
-  - { offset: 0x76F66, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.avgx, symObjAddr: 0x32FEC, symBinAddr: 0x10002A3BC, symSize: 0x0 }
-  - { offset: 0x76F7D, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.waitFor4, symObjAddr: 0x32FF0, symBinAddr: 0x10002A3C0, symSize: 0x0 }
-  - { offset: 0x76F94, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.reset, symObjAddr: 0x32FF8, symBinAddr: 0x10002A3C8, symSize: 0x0 }
-  - { offset: 0x76FAB, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.lastNFingers, symObjAddr: 0x32FFC, symBinAddr: 0x10002A3CC, symSize: 0x0 }
-  - { offset: 0x76FC2, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.fixX, symObjAddr: 0x33000, symBinAddr: 0x10002A3D0, symSize: 0x0 }
-  - { offset: 0x76FD9, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.fixY, symObjAddr: 0x33008, symBinAddr: 0x10002A3D8, symSize: 0x0 }
-  - { offset: 0x76FF0, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.fing, symObjAddr: 0x33010, symBinAddr: 0x10002A3E0, symSize: 0x0 }
-  - { offset: 0x7712D, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace, symObjAddr: 0x9750, symBinAddr: 0x10000B300, symSize: 0x640 }
-  - { offset: 0x77151, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.step, symObjAddr: 0x33028, symBinAddr: 0x10002A3F8, symSize: 0x0 }
-  - { offset: 0x77168, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.fing, symObjAddr: 0x33030, symBinAddr: 0x10002A400, symSize: 0x0 }
-  - { offset: 0x7717F, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.mini, symObjAddr: 0x33048, symBinAddr: 0x10002A418, symSize: 0x0 }
-  - { offset: 0x77196, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.move, symObjAddr: 0x3304C, symBinAddr: 0x10002A41C, symSize: 0x0 }
-  - { offset: 0x771AD, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.last, symObjAddr: 0x33050, symBinAddr: 0x10002A420, symSize: 0x0 }
-  - { offset: 0x77245, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4, symObjAddr: 0x9D90, symBinAddr: 0x10000B940, symSize: 0x460 }
-  - { offset: 0x77269, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.sttime, symObjAddr: 0x18700, symBinAddr: 0x100026340, symSize: 0x0 }
-  - { offset: 0x77280, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.lastNFingers, symObjAddr: 0x33058, symBinAddr: 0x10002A428, symSize: 0x0 }
-  - { offset: 0x77297, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.avgX, symObjAddr: 0x33060, symBinAddr: 0x10002A430, symSize: 0x0 }
-  - { offset: 0x772AE, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.avgY, symObjAddr: 0x33068, symBinAddr: 0x10002A438, symSize: 0x0 }
-  - { offset: 0x772C5, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.step, symObjAddr: 0x33070, symBinAddr: 0x10002A440, symSize: 0x0 }
-  - { offset: 0x77388, size: 0x8, addend: 0x0, symName: _fourFingerTapTriggered, symObjAddr: 0x33078, symBinAddr: 0x10002A448, symSize: 0x0 }
-  - { offset: 0x7739E, size: 0x8, addend: 0x0, symName: _trackpadTab4Step, symObjAddr: 0x3307C, symBinAddr: 0x10002A44C, symSize: 0x0 }
-  - { offset: 0x773A8, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap, symObjAddr: 0xA1F0, symBinAddr: 0x10000BDA0, symSize: 0x3F0 }
-  - { offset: 0x773CC, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap.sttime, symObjAddr: 0x18710, symBinAddr: 0x100026350, symSize: 0x0 }
-  - { offset: 0x773E3, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap.step, symObjAddr: 0x33084, symBinAddr: 0x10002A454, symSize: 0x0 }
-  - { offset: 0x773FA, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap.fing, symObjAddr: 0x33090, symBinAddr: 0x10002A460, symSize: 0x0 }
-  - { offset: 0x77411, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap.fourFingerTapTime, symObjAddr: 0x330D0, symBinAddr: 0x10002A4A0, symSize: 0x0 }
-  - { offset: 0x7748C, size: 0x8, addend: 0x0, symName: _trackpadTab4Triggered, symObjAddr: 0x2F289, symBinAddr: 0x100026659, symSize: 0x0 }
-  - { offset: 0x77496, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers, symObjAddr: 0xA5E0, symBinAddr: 0x10000C190, symSize: 0xDC0 }
-  - { offset: 0x774BA, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.startx, symObjAddr: 0x330D8, symBinAddr: 0x10002A4A8, symSize: 0x0 }
-  - { offset: 0x774D1, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.starty, symObjAddr: 0x330E4, symBinAddr: 0x10002A4B4, symSize: 0x0 }
-  - { offset: 0x774E8, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.lastNFingers, symObjAddr: 0x330F0, symBinAddr: 0x10002A4C0, symSize: 0x0 }
-  - { offset: 0x774FF, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.type, symObjAddr: 0x330F4, symBinAddr: 0x10002A4C4, symSize: 0x0 }
-  - { offset: 0x77516, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.l, symObjAddr: 0x330F8, symBinAddr: 0x10002A4C8, symSize: 0x0 }
-  - { offset: 0x7752D, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.r, symObjAddr: 0x330FC, symBinAddr: 0x10002A4CC, symSize: 0x0 }
-  - { offset: 0x777EA, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers, symObjAddr: 0xB3A0, symBinAddr: 0x10000CF50, symSize: 0x580 }
-  - { offset: 0x7780E, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers.startx, symObjAddr: 0x33100, symBinAddr: 0x10002A4D0, symSize: 0x0 }
-  - { offset: 0x77825, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers.starty, symObjAddr: 0x33110, symBinAddr: 0x10002A4E0, symSize: 0x0 }
-  - { offset: 0x7783C, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers.lastNFingers, symObjAddr: 0x33120, symBinAddr: 0x10002A4F0, symSize: 0x0 }
-  - { offset: 0x77853, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers.type, symObjAddr: 0x33124, symBinAddr: 0x10002A4F4, symSize: 0x0 }
-  - { offset: 0x779C5, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneForceTouchTap, symObjAddr: 0xB920, symBinAddr: 0x10000D4D0, symSize: 0x260 }
-  - { offset: 0x779E9, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneForceTouchTap.step, symObjAddr: 0x33128, symBinAddr: 0x10002A4F8, symSize: 0x0 }
-  - { offset: 0x77A00, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneForceTouchTap.sttime, symObjAddr: 0x18718, symBinAddr: 0x100026358, symSize: 0x0 }
-  - { offset: 0x77A17, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneForceTouchTap.startPressure, symObjAddr: 0x3312C, symBinAddr: 0x10002A4FC, symSize: 0x0 }
-  - { offset: 0x77A2E, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneForceTouchTap.maxPressure, symObjAddr: 0x33130, symBinAddr: 0x10002A500, symSize: 0x0 }
-  - { offset: 0x77A45, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneForceTouchTap.startPos, symObjAddr: 0x33134, symBinAddr: 0x10002A504, symSize: 0x0 }
-  - { offset: 0x77A9F, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoForceTouchTap, symObjAddr: 0xBB80, symBinAddr: 0x10000D730, symSize: 0x370 }
-  - { offset: 0x77AC3, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoForceTouchTap.step, symObjAddr: 0x3313C, symBinAddr: 0x10002A50C, symSize: 0x0 }
-  - { offset: 0x77ADA, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoForceTouchTap.sttime, symObjAddr: 0x18720, symBinAddr: 0x100026360, symSize: 0x0 }
-  - { offset: 0x77AF1, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoForceTouchTap.startPressure, symObjAddr: 0x33140, symBinAddr: 0x10002A510, symSize: 0x0 }
-  - { offset: 0x77B08, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoForceTouchTap.maxPressure, symObjAddr: 0x33148, symBinAddr: 0x10002A518, symSize: 0x0 }
-  - { offset: 0x77B1F, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoForceTouchTap.startPos, symObjAddr: 0x33150, symBinAddr: 0x10002A520, symSize: 0x0 }
-  - { offset: 0x77B79, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeForceTouchTap, symObjAddr: 0xBEF0, symBinAddr: 0x10000DAA0, symSize: 0x3D0 }
-  - { offset: 0x77B9D, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeForceTouchTap.step, symObjAddr: 0x33160, symBinAddr: 0x10002A530, symSize: 0x0 }
-  - { offset: 0x77BB4, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeForceTouchTap.sttime, symObjAddr: 0x18728, symBinAddr: 0x100026368, symSize: 0x0 }
-  - { offset: 0x77BCB, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeForceTouchTap.startPressure, symObjAddr: 0x33164, symBinAddr: 0x10002A534, symSize: 0x0 }
-  - { offset: 0x77BE2, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeForceTouchTap.maxPressure, symObjAddr: 0x33170, symBinAddr: 0x10002A540, symSize: 0x0 }
-  - { offset: 0x77BF9, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeForceTouchTap.startPos, symObjAddr: 0x33180, symBinAddr: 0x10002A550, symSize: 0x0 }
-  - { offset: 0x77CB0, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap, symObjAddr: 0xC2C0, symBinAddr: 0x10000DE70, symSize: 0x570 }
-  - { offset: 0x77CD4, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap.step, symObjAddr: 0x33198, symBinAddr: 0x10002A568, symSize: 0x0 }
-  - { offset: 0x77CEB, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap.sttime, symObjAddr: 0x331A0, symBinAddr: 0x10002A570, symSize: 0x0 }
-  - { offset: 0x77D02, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap.fing, symObjAddr: 0x331B0, symBinAddr: 0x10002A580, symSize: 0x0 }
-  - { offset: 0x77D19, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap.idf, symObjAddr: 0x331C8, symBinAddr: 0x10002A598, symSize: 0x0 }
-  - { offset: 0x77D74, size: 0x8, addend: 0x0, symName: _gestureMagicMouseThumb, symObjAddr: 0x11B30, symBinAddr: 0x1000136E0, symSize: 0x510 }
-  - { offset: 0x77D9C, size: 0x8, addend: 0x0, symName: _gestureMagicMouseThumb.type, symObjAddr: 0x331D4, symBinAddr: 0x10002A5A4, symSize: 0x0 }
-  - { offset: 0x77F34, size: 0x8, addend: 0x0, symName: _simulatingByDevice, symObjAddr: 0x331D8, symBinAddr: 0x10002A5A8, symSize: 0x0 }
-  - { offset: 0x77F3E, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers, symObjAddr: 0x12040, symBinAddr: 0x100013BF0, symSize: 0x630 }
-  - { offset: 0x77F62, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.beforeendtime, symObjAddr: 0x18730, symBinAddr: 0x100026370, symSize: 0x0 }
-  - { offset: 0x77F79, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.endtime, symObjAddr: 0x18738, symBinAddr: 0x100026378, symSize: 0x0 }
-  - { offset: 0x77F90, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.startx, symObjAddr: 0x331DC, symBinAddr: 0x10002A5AC, symSize: 0x0 }
-  - { offset: 0x77FA7, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.starty, symObjAddr: 0x331E8, symBinAddr: 0x10002A5B8, symSize: 0x0 }
-  - { offset: 0x77FBE, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.lastNFingers, symObjAddr: 0x331F4, symBinAddr: 0x10002A5C4, symSize: 0x0 }
-  - { offset: 0x7812B, size: 0x8, addend: 0x0, symName: _trigger, symObjAddr: 0x331F8, symBinAddr: 0x10002A5C8, symSize: 0x0 }
-  - { offset: 0x78135, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers, symObjAddr: 0x12670, symBinAddr: 0x100014220, symSize: 0x6C0 }
-  - { offset: 0x78159, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.beforeendtime, symObjAddr: 0x18740, symBinAddr: 0x100026380, symSize: 0x0 }
-  - { offset: 0x78170, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.endtime, symObjAddr: 0x18748, symBinAddr: 0x100026388, symSize: 0x0 }
-  - { offset: 0x78187, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.startx, symObjAddr: 0x331FC, symBinAddr: 0x10002A5CC, symSize: 0x0 }
-  - { offset: 0x7819E, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.starty, symObjAddr: 0x33208, symBinAddr: 0x10002A5D8, symSize: 0x0 }
-  - { offset: 0x781B5, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.lastNFingers, symObjAddr: 0x33214, symBinAddr: 0x10002A5E4, symSize: 0x0 }
-  - { offset: 0x78301, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap, symObjAddr: 0x12D30, symBinAddr: 0x1000148E0, symSize: 0x450 }
-  - { offset: 0x78329, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.sttime, symObjAddr: 0x18750, symBinAddr: 0x100026390, symSize: 0x0 }
-  - { offset: 0x78340, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.fing, symObjAddr: 0x33220, symBinAddr: 0x10002A5F0, symSize: 0x0 }
-  - { offset: 0x78357, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.step, symObjAddr: 0x33230, symBinAddr: 0x10002A600, symSize: 0x0 }
-  - { offset: 0x7836E, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.fixId, symObjAddr: 0x33234, symBinAddr: 0x10002A604, symSize: 0x0 }
-  - { offset: 0x78385, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.avgx, symObjAddr: 0x33238, symBinAddr: 0x10002A608, symSize: 0x0 }
-  - { offset: 0x7839C, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.avgy, symObjAddr: 0x3323C, symBinAddr: 0x10002A60C, symSize: 0x0 }
-  - { offset: 0x783D7, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV, symObjAddr: 0x13180, symBinAddr: 0x100014D30, symSize: 0x6C0 }
-  - { offset: 0x783FF, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.baseX, symObjAddr: 0x33240, symBinAddr: 0x10002A610, symSize: 0x0 }
-  - { offset: 0x78416, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.baseY, symObjAddr: 0x33248, symBinAddr: 0x10002A618, symSize: 0x0 }
-  - { offset: 0x7842D, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.appX, symObjAddr: 0x33250, symBinAddr: 0x10002A620, symSize: 0x0 }
-  - { offset: 0x78444, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.appY, symObjAddr: 0x33258, symBinAddr: 0x10002A628, symSize: 0x0 }
-  - { offset: 0x7845B, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.cWindow, symObjAddr: 0x33260, symBinAddr: 0x10002A630, symSize: 0x0 }
-  - { offset: 0x78472, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.type, symObjAddr: 0x33268, symBinAddr: 0x10002A638, symSize: 0x0 }
-  - { offset: 0x78489, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.firstTouch, symObjAddr: 0x18758, symBinAddr: 0x100026398, symSize: 0x0 }
-  - { offset: 0x784A0, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.reset, symObjAddr: 0x3326C, symBinAddr: 0x10002A63C, symSize: 0x0 }
-  - { offset: 0x784B7, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.fing, symObjAddr: 0x33270, symBinAddr: 0x10002A640, symSize: 0x0 }
-  - { offset: 0x784CE, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.lastMouseX, symObjAddr: 0x1875C, symBinAddr: 0x10002639C, symSize: 0x0 }
-  - { offset: 0x784E5, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.lastMouseY, symObjAddr: 0x18760, symBinAddr: 0x1000263A0, symSize: 0x0 }
-  - { offset: 0x7858E, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide, symObjAddr: 0x13840, symBinAddr: 0x1000153F0, symSize: 0x740 }
-  - { offset: 0x785B2, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.step, symObjAddr: 0x33280, symBinAddr: 0x10002A650, symSize: 0x0 }
-  - { offset: 0x785C9, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.fing, symObjAddr: 0x33290, symBinAddr: 0x10002A660, symSize: 0x0 }
-  - { offset: 0x785E0, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.mini, symObjAddr: 0x332A8, symBinAddr: 0x10002A678, symSize: 0x0 }
-  - { offset: 0x785F7, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.move, symObjAddr: 0x332AC, symBinAddr: 0x10002A67C, symSize: 0x0 }
-  - { offset: 0x7860E, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.last, symObjAddr: 0x332B0, symBinAddr: 0x10002A680, symSize: 0x0 }
-  - { offset: 0x78625, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.lastThumbPresent, symObjAddr: 0x332B8, symBinAddr: 0x10002A688, symSize: 0x0 }
-  - { offset: 0x7870D, size: 0x8, addend: 0x0, symName: _builtinTrackpadFamilyIDs, symObjAddr: 0x18780, symBinAddr: 0x10001FCC0, symSize: 0x0 }
-  - { offset: 0x78737, size: 0x8, addend: 0x0, symName: _magicMouseFamilyIDs, symObjAddr: 0x187A4, symBinAddr: 0x10001FCE4, symSize: 0x0 }
-  - { offset: 0x7875B, size: 0x8, addend: 0x0, symName: _magicTrackpadFamilyIDs, symObjAddr: 0x187A8, symBinAddr: 0x10001FCE8, symSize: 0x0 }
-  - { offset: 0x78773, size: 0x8, addend: 0x0, symName: _CGEventCallback, symObjAddr: 0x1410, symBinAddr: 0x100002FC0, symSize: 0xBB0 }
-  - { offset: 0x7879B, size: 0x8, addend: 0x0, symName: _CGEventCallback.freePass, symObjAddr: 0x332BC, symBinAddr: 0x10002A68C, symSize: 0x0 }
-  - { offset: 0x7895B, size: 0x8, addend: 0x0, symName: _mouseRecognizer, symObjAddr: 0x143F0, symBinAddr: 0x100015FA0, symSize: 0x510 }
-  - { offset: 0x78983, size: 0x8, addend: 0x0, symName: _mouseRecognizer.timer, symObjAddr: 0x332C0, symBinAddr: 0x10002A690, symSize: 0x0 }
-  - { offset: 0x7899A, size: 0x8, addend: 0x0, symName: _mouseRecognizer.lpos, symObjAddr: 0x332C8, symBinAddr: 0x10002A698, symSize: 0x0 }
-  - { offset: 0x789BE, size: 0x8, addend: 0x0, symName: _mouseRecognizer.firstPos, symObjAddr: 0x332D0, symBinAddr: 0x10002A6A0, symSize: 0x0 }
-  - { offset: 0x789D5, size: 0x8, addend: 0x0, symName: _mouseRecognizer.top, symObjAddr: 0x332D8, symBinAddr: 0x10002A6A8, symSize: 0x0 }
-  - { offset: 0x789EC, size: 0x8, addend: 0x0, symName: _mouseRecognizer.bottom, symObjAddr: 0x332DC, symBinAddr: 0x10002A6AC, symSize: 0x0 }
-  - { offset: 0x78A03, size: 0x8, addend: 0x0, symName: _mouseRecognizer.left, symObjAddr: 0x332E0, symBinAddr: 0x10002A6B0, symSize: 0x0 }
-  - { offset: 0x78A1A, size: 0x8, addend: 0x0, symName: _mouseRecognizer.right, symObjAddr: 0x332E4, symBinAddr: 0x10002A6B4, symSize: 0x0 }
-  - { offset: 0x78A31, size: 0x8, addend: 0x0, symName: _mouseRecognizer.distCounter, symObjAddr: 0x332E8, symBinAddr: 0x10002A6B8, symSize: 0x0 }
-  - { offset: 0x78ACD, size: 0x8, addend: 0x0, symName: _systemWideElement, symObjAddr: 0x2F218, symBinAddr: 0x1000265E8, symSize: 0x0 }
-  - { offset: 0x78C51, size: 0x8, addend: 0x0, symName: _turnOffGestures, symObjAddr: 0x0, symBinAddr: 0x100001BB0, symSize: 0x20 }
-  - { offset: 0x78C67, size: 0x8, addend: 0x0, symName: '-[Gesture addMultitouchDevice:]', symObjAddr: 0x20, symBinAddr: 0x100001BD0, symSize: 0x530 }
-  - { offset: 0x78DC1, size: 0x8, addend: 0x0, symName: _magicMouseCallback, symObjAddr: 0xFD0, symBinAddr: 0x100002B80, symSize: 0x2C0 }
-  - { offset: 0x78E9A, size: 0x8, addend: 0x0, symName: _familyIsBuiltinTrackpad, symObjAddr: 0x1290, symBinAddr: 0x100002E40, symSize: 0x50 }
-  - { offset: 0x78EE2, size: 0x8, addend: 0x0, symName: _familyIsMagicMouse, symObjAddr: 0x12E0, symBinAddr: 0x100002E90, symSize: 0x50 }
-  - { offset: 0x78F2A, size: 0x8, addend: 0x0, symName: _familyIsMagicTrackpad, symObjAddr: 0x1330, symBinAddr: 0x100002EE0, symSize: 0x50 }
-  - { offset: 0x78F72, size: 0x8, addend: 0x0, symName: '-[Gesture createEventTap]', symObjAddr: 0x1380, symBinAddr: 0x100002F30, symSize: 0x90 }
-  - { offset: 0x78FDC, size: 0x8, addend: 0x0, symName: '-[Gesture createEventTapTimer:]', symObjAddr: 0x1FC0, symBinAddr: 0x100003B70, symSize: 0xE0 }
-  - { offset: 0x79032, size: 0x8, addend: 0x0, symName: '-[Gesture init]', symObjAddr: 0x20A0, symBinAddr: 0x100003C50, symSize: 0x470 }
-  - { offset: 0x7914E, size: 0x8, addend: 0x0, symName: _initNormPdf, symObjAddr: 0x2510, symBinAddr: 0x1000040C0, symSize: 0x390 }
-  - { offset: 0x79222, size: 0x8, addend: 0x0, symName: _initChars, symObjAddr: 0x28A0, symBinAddr: 0x100004450, symSize: 0x2B60 }
-  - { offset: 0x7924A, size: 0x8, addend: 0x0, symName: _multitouchDeviceAdded, symObjAddr: 0x5400, symBinAddr: 0x100006FB0, symSize: 0x240 }
-  - { offset: 0x7930A, size: 0x8, addend: 0x0, symName: _multitouchDeviceRemoved, symObjAddr: 0x5640, symBinAddr: 0x1000071F0, symSize: 0x1D0 }
-  - { offset: 0x793B9, size: 0x8, addend: 0x0, symName: '-[Gesture reload]', symObjAddr: 0x5810, symBinAddr: 0x1000073C0, symSize: 0x3C0 }
-  - { offset: 0x794AD, size: 0x8, addend: 0x0, symName: '-[Gesture showHintTimer:]', symObjAddr: 0x5BD0, symBinAddr: 0x100007780, symSize: 0x80 }
-  - { offset: 0x794F3, size: 0x8, addend: 0x0, symName: _finalizeStep, symObjAddr: 0x5C50, symBinAddr: 0x100007800, symSize: 0x5F0 }
-  - { offset: 0x795BE, size: 0x8, addend: 0x0, symName: '-[Gesture dealloc]', symObjAddr: 0x6240, symBinAddr: 0x100007DF0, symSize: 0x50 }
-  - { offset: 0x795F4, size: 0x8, addend: 0x0, symName: _turnOffTrackpad, symObjAddr: 0x6290, symBinAddr: 0x100007E40, symSize: 0x10 }
-  - { offset: 0x7960A, size: 0x8, addend: 0x0, symName: _turnOffMagicMouse, symObjAddr: 0x62A0, symBinAddr: 0x100007E50, symSize: 0x60 }
-  - { offset: 0x79620, size: 0x8, addend: 0x0, symName: _turnOffCharacters, symObjAddr: 0x6300, symBinAddr: 0x100007EB0, symSize: 0x80 }
-  - { offset: 0x79646, size: 0x8, addend: 0x0, symName: _lenSqrF, symObjAddr: 0x6380, symBinAddr: 0x100007F30, symSize: 0x80 }
-  - { offset: 0x7968E, size: 0x8, addend: 0x0, symName: _lenSqr, symObjAddr: 0xC830, symBinAddr: 0x10000E3E0, symSize: 0x50 }
-  - { offset: 0x796E5, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke, symObjAddr: 0xC880, symBinAddr: 0x10000E430, symSize: 0x80 }
-  - { offset: 0x79737, size: 0x8, addend: 0x0, symName: _dispatchCommand, symObjAddr: 0xC900, symBinAddr: 0x10000E4B0, symSize: 0x70 }
-  - { offset: 0x7976F, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_2, symObjAddr: 0xC970, symBinAddr: 0x10000E520, symSize: 0x50 }
-  - { offset: 0x7979B, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_3, symObjAddr: 0xC9C0, symBinAddr: 0x10000E570, symSize: 0x80 }
-  - { offset: 0x797C7, size: 0x8, addend: 0x0, symName: _advanceStep, symObjAddr: 0xCA40, symBinAddr: 0x10000E5F0, symSize: 0x6C0 }
-  - { offset: 0x7986C, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_4, symObjAddr: 0xD100, symBinAddr: 0x10000ECB0, symSize: 0x60 }
-  - { offset: 0x79898, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_5, symObjAddr: 0xD160, symBinAddr: 0x10000ED10, symSize: 0x40 }
-  - { offset: 0x798EA, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_6, symObjAddr: 0xD1A0, symBinAddr: 0x10000ED50, symSize: 0x40 }
-  - { offset: 0x79916, size: 0x8, addend: 0x0, symName: _clearStep, symObjAddr: 0xD1E0, symBinAddr: 0x10000ED90, symSize: 0x70 }
-  - { offset: 0x7994D, size: 0x8, addend: 0x0, symName: ___dispatchCommand_block_invoke, symObjAddr: 0xD250, symBinAddr: 0x10000EE00, symSize: 0xC0 }
-  - { offset: 0x799CE, size: 0x8, addend: 0x0, symName: _doCommand, symObjAddr: 0xD310, symBinAddr: 0x10000EEC0, symSize: 0x23D0 }
-  - { offset: 0x7A03C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32o, symObjAddr: 0xF6E0, symBinAddr: 0x100011290, symSize: 0x30 }
-  - { offset: 0x7A063, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32o, symObjAddr: 0xF710, symBinAddr: 0x1000112C0, symSize: 0x30 }
-  - { offset: 0x7A081, size: 0x8, addend: 0x0, symName: _nameOfAxui, symObjAddr: 0xF740, symBinAddr: 0x1000112F0, symSize: 0x70 }
-  - { offset: 0x7A0DD, size: 0x8, addend: 0x0, symName: _getMousePosition, symObjAddr: 0xF7B0, symBinAddr: 0x100011360, symSize: 0x60 }
-  - { offset: 0x7A135, size: 0x8, addend: 0x0, symName: _activateWindowAtPosition, symObjAddr: 0xF810, symBinAddr: 0x1000113C0, symSize: 0x1E0 }
-  - { offset: 0x7A20B, size: 0x8, addend: 0x0, symName: _maximizeWindow, symObjAddr: 0xF9F0, symBinAddr: 0x1000115A0, symSize: 0xD50 }
-  - { offset: 0x7A4EA, size: 0x8, addend: 0x0, symName: _getForemostApp, symObjAddr: 0x10740, symBinAddr: 0x1000122F0, symSize: 0x150 }
-  - { offset: 0x7A555, size: 0x8, addend: 0x0, symName: _axuiUnderMouse, symObjAddr: 0x10890, symBinAddr: 0x100012440, symSize: 0x60 }
-  - { offset: 0x7A5A1, size: 0x8, addend: 0x0, symName: _selectSafariTab, symObjAddr: 0x108F0, symBinAddr: 0x1000124A0, symSize: 0x160 }
-  - { offset: 0x7A67E, size: 0x8, addend: 0x0, symName: _findTabGroup2, symObjAddr: 0x10A50, symBinAddr: 0x100012600, symSize: 0x370 }
-  - { offset: 0x7A860, size: 0x8, addend: 0x0, symName: _getWindowPos, symObjAddr: 0x10DC0, symBinAddr: 0x100012970, symSize: 0x70 }
-  - { offset: 0x7A8D7, size: 0x8, addend: 0x0, symName: _getWindowSize, symObjAddr: 0x10E30, symBinAddr: 0x1000129E0, symSize: 0x70 }
-  - { offset: 0x7A94E, size: 0x8, addend: 0x0, symName: _minimizeForemostWindow, symObjAddr: 0x10EA0, symBinAddr: 0x100012A50, symSize: 0x60 }
-  - { offset: 0x7A995, size: 0x8, addend: 0x0, symName: _maximizeForemostWindow, symObjAddr: 0x10F00, symBinAddr: 0x100012AB0, symSize: 0x60 }
-  - { offset: 0x7A9DC, size: 0x8, addend: 0x0, symName: _setWindowPos, symObjAddr: 0x10F60, symBinAddr: 0x100012B10, symSize: 0x80 }
-  - { offset: 0x7AA44, size: 0x8, addend: 0x0, symName: _setWindowSize, symObjAddr: 0x10FE0, symBinAddr: 0x100012B90, symSize: 0xA0 }
-  - { offset: 0x7AAB0, size: 0x8, addend: 0x0, symName: _CGPointMake, symObjAddr: 0x11080, symBinAddr: 0x100012C30, symSize: 0x30 }
-  - { offset: 0x7AAFC, size: 0x8, addend: 0x0, symName: _CGSizeMake, symObjAddr: 0x110B0, symBinAddr: 0x100012C60, symSize: 0x30 }
-  - { offset: 0x7AB48, size: 0x8, addend: 0x0, symName: _getScore, symObjAddr: 0x110E0, symBinAddr: 0x100012C90, symSize: 0x110 }
-  - { offset: 0x7ABC3, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerOne_block_invoke, symObjAddr: 0x111F0, symBinAddr: 0x100012DA0, symSize: 0xC0 }
-  - { offset: 0x7AC02, size: 0x8, addend: 0x0, symName: _mouseClick, symObjAddr: 0x112B0, symBinAddr: 0x100012E60, symSize: 0x140 }
-  - { offset: 0x7ACD1, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerOne_block_invoke_2, symObjAddr: 0x113F0, symBinAddr: 0x100012FA0, symSize: 0x50 }
-  - { offset: 0x7ACFD, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerOne_block_invoke_3, symObjAddr: 0x11440, symBinAddr: 0x100012FF0, symSize: 0x40 }
-  - { offset: 0x7AD3C, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke, symObjAddr: 0x11480, symBinAddr: 0x100013030, symSize: 0x50 }
-  - { offset: 0x7AD68, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_2, symObjAddr: 0x114D0, symBinAddr: 0x100013080, symSize: 0xB0 }
-  - { offset: 0x7AD94, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_3, symObjAddr: 0x11580, symBinAddr: 0x100013130, symSize: 0x30 }
-  - { offset: 0x7ADC0, size: 0x8, addend: 0x0, symName: _setWindowPos2, symObjAddr: 0x115B0, symBinAddr: 0x100013160, symSize: 0x60 }
-  - { offset: 0x7AE48, size: 0x8, addend: 0x0, symName: _setWindowSize2, symObjAddr: 0x11610, symBinAddr: 0x1000131C0, symSize: 0x60 }
-  - { offset: 0x7AED4, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_4, symObjAddr: 0x11670, symBinAddr: 0x100013220, symSize: 0x50 }
-  - { offset: 0x7AF00, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_5, symObjAddr: 0x116C0, symBinAddr: 0x100013270, symSize: 0x50 }
-  - { offset: 0x7AF2C, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_6, symObjAddr: 0x11710, symBinAddr: 0x1000132C0, symSize: 0x50 }
-  - { offset: 0x7AF58, size: 0x8, addend: 0x0, symName: _commandForGesture, symObjAddr: 0x11760, symBinAddr: 0x100013310, symSize: 0x1A0 }
-  - { offset: 0x7AFD4, size: 0x8, addend: 0x0, symName: _setCursorWindowAtMouse, symObjAddr: 0x11900, symBinAddr: 0x1000134B0, symSize: 0xB0 }
-  - { offset: 0x7B03E, size: 0x8, addend: 0x0, symName: _isMouseOnEmptySpace, symObjAddr: 0x119B0, symBinAddr: 0x100013560, symSize: 0x100 }
-  - { offset: 0x7B0B9, size: 0x8, addend: 0x0, symName: _cosineBetweenVectors, symObjAddr: 0x11AB0, symBinAddr: 0x100013660, symSize: 0x80 }
-  - { offset: 0x7B110, size: 0x8, addend: 0x0, symName: _gestureMagicMouseMiddleClick, symObjAddr: 0x13F80, symBinAddr: 0x100015B30, symSize: 0x140 }
-  - { offset: 0x7B148, size: 0x8, addend: 0x0, symName: ___gestureMagicMouseV_block_invoke, symObjAddr: 0x140C0, symBinAddr: 0x100015C70, symSize: 0x50 }
-  - { offset: 0x7B174, size: 0x8, addend: 0x0, symName: ___gestureMagicMouseV_block_invoke_2, symObjAddr: 0x14110, symBinAddr: 0x100015CC0, symSize: 0x50 }
-  - { offset: 0x7B1A0, size: 0x8, addend: 0x0, symName: ___gestureMagicMouseV_block_invoke_3, symObjAddr: 0x14160, symBinAddr: 0x100015D10, symSize: 0xB0 }
-  - { offset: 0x7B1CC, size: 0x8, addend: 0x0, symName: ___gestureMagicMouseV_block_invoke_4, symObjAddr: 0x14210, symBinAddr: 0x100015DC0, symSize: 0x50 }
-  - { offset: 0x7B1F8, size: 0x8, addend: 0x0, symName: ___CGEventCallback_block_invoke, symObjAddr: 0x14260, symBinAddr: 0x100015E10, symSize: 0x40 }
-  - { offset: 0x7B237, size: 0x8, addend: 0x0, symName: ___CGEventCallback_block_invoke_2, symObjAddr: 0x142A0, symBinAddr: 0x100015E50, symSize: 0x40 }
-  - { offset: 0x7B276, size: 0x8, addend: 0x0, symName: ___CGEventCallback_block_invoke_3, symObjAddr: 0x142E0, symBinAddr: 0x100015E90, symSize: 0x40 }
-  - { offset: 0x7B2A2, size: 0x8, addend: 0x0, symName: ___CGEventCallback_block_invoke_4, symObjAddr: 0x14320, symBinAddr: 0x100015ED0, symSize: 0xD0 }
-  - { offset: 0x7B2CE, size: 0x8, addend: 0x0, symName: ___mouseRecognizer_block_invoke, symObjAddr: 0x14900, symBinAddr: 0x1000164B0, symSize: 0x80 }
-  - { offset: 0x7B320, size: 0x8, addend: 0x0, symName: ___mouseRecognizer_block_invoke_2, symObjAddr: 0x14980, symBinAddr: 0x100016530, symSize: 0x60 }
-  - { offset: 0x7B34C, size: 0x8, addend: 0x0, symName: ___mouseRecognizer_block_invoke_3, symObjAddr: 0x149E0, symBinAddr: 0x100016590, symSize: 0x40 }
-  - { offset: 0x7B378, size: 0x8, addend: 0x0, symName: ___mouseRecognizer_block_invoke_4, symObjAddr: 0x14A20, symBinAddr: 0x1000165D0, symSize: 0x50 }
-  - { offset: 0x7B3A4, size: 0x8, addend: 0x0, symName: _setDegreeSpan, symObjAddr: 0x14A70, symBinAddr: 0x100016620, symSize: 0x6F }
-  - { offset: 0x7BF81, size: 0x8, addend: 0x0, symName: '-[CursorWindow init]', symObjAddr: 0x0, symBinAddr: 0x100016690, symSize: 0x1F0 }
-  - { offset: 0x7C005, size: 0x8, addend: 0x0, symName: '-[CursorWindow init]', symObjAddr: 0x0, symBinAddr: 0x100016690, symSize: 0x1F0 }
-  - { offset: 0x7C082, size: 0x8, addend: 0x0, symName: '-[CursorWindow drawRect:]', symObjAddr: 0x1F0, symBinAddr: 0x100016880, symSize: 0xE }
-  - { offset: 0x7C134, size: 0x8, addend: 0x0, symName: '-[CursorView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x100016890, symSize: 0x100 }
-  - { offset: 0x7C14E, size: 0x8, addend: 0x0, symName: _cursorImageType, symObjAddr: 0x1B9C, symBinAddr: 0x10002653C, symSize: 0x0 }
-  - { offset: 0x7C1C5, size: 0x8, addend: 0x0, symName: '-[CursorView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x100016890, symSize: 0x100 }
-  - { offset: 0x7C20D, size: 0x8, addend: 0x0, symName: '-[CursorView drawRect:]', symObjAddr: 0x100, symBinAddr: 0x100016990, symSize: 0x180 }
-  - { offset: 0x7C260, size: 0x8, addend: 0x0, symName: '-[CursorView dealloc]', symObjAddr: 0x280, symBinAddr: 0x100016B10, symSize: 0x80 }
-  - { offset: 0x7C295, size: 0x8, addend: 0x0, symName: '-[CursorView moveImage]', symObjAddr: 0x300, symBinAddr: 0x100016B90, symSize: 0x20 }
-  - { offset: 0x7C2CE, size: 0x8, addend: 0x0, symName: '-[CursorView setMoveImage:]', symObjAddr: 0x320, symBinAddr: 0x100016BB0, symSize: 0x40 }
-  - { offset: 0x7C310, size: 0x8, addend: 0x0, symName: '-[CursorView resizeImage]', symObjAddr: 0x360, symBinAddr: 0x100016BF0, symSize: 0x20 }
-  - { offset: 0x7C349, size: 0x8, addend: 0x0, symName: '-[CursorView setResizeImage:]', symObjAddr: 0x380, symBinAddr: 0x100016C10, symSize: 0x40 }
-  - { offset: 0x7C38B, size: 0x8, addend: 0x0, symName: '-[CursorView tabImage]', symObjAddr: 0x3C0, symBinAddr: 0x100016C50, symSize: 0x20 }
-  - { offset: 0x7C3C4, size: 0x8, addend: 0x0, symName: '-[CursorView setTabImage:]', symObjAddr: 0x3E0, symBinAddr: 0x100016C70, symSize: 0x32 }
-  - { offset: 0x7C474, size: 0x8, addend: 0x0, symName: '+[Settings noteSettingsUpdated2]', symObjAddr: 0x0, symBinAddr: 0x100016CB0, symSize: 0x100 }
-  - { offset: 0x7C4B9, size: 0x8, addend: 0x0, symName: _settings, symObjAddr: 0x7760, symBinAddr: 0x100026548, symSize: 0x0 }
-  - { offset: 0x7C4D5, size: 0x8, addend: 0x0, symName: _trackpadMap, symObjAddr: 0x77C0, symBinAddr: 0x1000265A8, symSize: 0x0 }
-  - { offset: 0x7C4EB, size: 0x8, addend: 0x0, symName: _magicMouseMap, symObjAddr: 0x77C8, symBinAddr: 0x1000265B0, symSize: 0x0 }
-  - { offset: 0x7C501, size: 0x8, addend: 0x0, symName: _recognitionMap, symObjAddr: 0x77D0, symBinAddr: 0x1000265B8, symSize: 0x0 }
-  - { offset: 0x7C517, size: 0x8, addend: 0x0, symName: _clickSpeed, symObjAddr: 0x7768, symBinAddr: 0x100026550, symSize: 0x0 }
-  - { offset: 0x7C535, size: 0x8, addend: 0x0, symName: _stvt, symObjAddr: 0x776C, symBinAddr: 0x100026554, symSize: 0x0 }
-  - { offset: 0x7C54B, size: 0x8, addend: 0x0, symName: _enAll, symObjAddr: 0x7758, symBinAddr: 0x100026540, symSize: 0x0 }
-  - { offset: 0x7C569, size: 0x8, addend: 0x0, symName: _logLevel, symObjAddr: 0x7770, symBinAddr: 0x100026558, symSize: 0x0 }
-  - { offset: 0x7C57F, size: 0x8, addend: 0x0, symName: _enTPAll, symObjAddr: 0x7774, symBinAddr: 0x10002655C, symSize: 0x0 }
-  - { offset: 0x7C595, size: 0x8, addend: 0x0, symName: _enHanded, symObjAddr: 0x7778, symBinAddr: 0x100026560, symSize: 0x0 }
-  - { offset: 0x7C5AB, size: 0x8, addend: 0x0, symName: _enMMAll, symObjAddr: 0x777C, symBinAddr: 0x100026564, symSize: 0x0 }
-  - { offset: 0x7C5C1, size: 0x8, addend: 0x0, symName: _enMMHanded, symObjAddr: 0x7780, symBinAddr: 0x100026568, symSize: 0x0 }
-  - { offset: 0x7C5D7, size: 0x8, addend: 0x0, symName: _enCharRegTP, symObjAddr: 0x7784, symBinAddr: 0x10002656C, symSize: 0x0 }
-  - { offset: 0x7C5ED, size: 0x8, addend: 0x0, symName: _enCharRegMM, symObjAddr: 0x7788, symBinAddr: 0x100026570, symSize: 0x0 }
-  - { offset: 0x7C603, size: 0x8, addend: 0x0, symName: _charRegIndexRingDistance, symObjAddr: 0x7794, symBinAddr: 0x10002657C, symSize: 0x0 }
-  - { offset: 0x7C619, size: 0x8, addend: 0x0, symName: _charRegMouseButton, symObjAddr: 0x7798, symBinAddr: 0x100026580, symSize: 0x0 }
-  - { offset: 0x7C62F, size: 0x8, addend: 0x0, symName: _enOneDrawing, symObjAddr: 0x778C, symBinAddr: 0x100026574, symSize: 0x0 }
-  - { offset: 0x7C645, size: 0x8, addend: 0x0, symName: _enTwoDrawing, symObjAddr: 0x7790, symBinAddr: 0x100026578, symSize: 0x0 }
-  - { offset: 0x7C65B, size: 0x8, addend: 0x0, symName: _trackpadCommands, symObjAddr: 0x77A0, symBinAddr: 0x100026588, symSize: 0x0 }
-  - { offset: 0x7C677, size: 0x8, addend: 0x0, symName: _magicMouseCommands, symObjAddr: 0x77A8, symBinAddr: 0x100026590, symSize: 0x0 }
-  - { offset: 0x7C68D, size: 0x8, addend: 0x0, symName: _recognitionCommands, symObjAddr: 0x77B0, symBinAddr: 0x100026598, symSize: 0x0 }
-  - { offset: 0x7C6A3, size: 0x8, addend: 0x0, symName: _hasloaded, symObjAddr: 0x77D8, symBinAddr: 0x1000265C0, symSize: 0x0 }
-  - { offset: 0x7C6C1, size: 0x8, addend: 0x0, symName: _isPrefPane, symObjAddr: 0x77B8, symBinAddr: 0x1000265A0, symSize: 0x0 }
-  - { offset: 0x7C6D7, size: 0x8, addend: 0x0, symName: _notSynchronize, symObjAddr: 0x77DC, symBinAddr: 0x10002A6BC, symSize: 0x0 }
-  - { offset: 0x7C6E3, size: 0x8, addend: 0x0, symName: '+[Settings noteSettingsUpdated2]', symObjAddr: 0x0, symBinAddr: 0x100016CB0, symSize: 0x100 }
-  - { offset: 0x7C727, size: 0x8, addend: 0x0, symName: '+[Settings setKey:withInt:]', symObjAddr: 0x100, symBinAddr: 0x100016DB0, symSize: 0x70 }
-  - { offset: 0x7C789, size: 0x8, addend: 0x0, symName: '+[Settings setKey:withFloat:]', symObjAddr: 0x170, symBinAddr: 0x100016E20, symSize: 0x70 }
-  - { offset: 0x7C7EB, size: 0x8, addend: 0x0, symName: '+[Settings setKey:with:]', symObjAddr: 0x1E0, symBinAddr: 0x100016E90, symSize: 0x50 }
-  - { offset: 0x7C84D, size: 0x8, addend: 0x0, symName: '+[Settings recognitionDefault]', symObjAddr: 0x230, symBinAddr: 0x100016EE0, symSize: 0xED0 }
-  - { offset: 0x7C8B1, size: 0x8, addend: 0x0, symName: '+[Settings trackpadDefault]', symObjAddr: 0x1100, symBinAddr: 0x100017DB0, symSize: 0x1370 }
-  - { offset: 0x7C915, size: 0x8, addend: 0x0, symName: '+[Settings magicMouseDefault]', symObjAddr: 0x2470, symBinAddr: 0x100019120, symSize: 0x7D0 }
-  - { offset: 0x7C979, size: 0x8, addend: 0x0, symName: '+[Settings createDefaultPlist]', symObjAddr: 0x2C40, symBinAddr: 0x1000198F0, symSize: 0x270 }
-  - { offset: 0x7C9AE, size: 0x8, addend: 0x0, symName: '+[Settings loadSettings2:]', symObjAddr: 0x2EB0, symBinAddr: 0x100019B60, symSize: 0x4D0 }
-  - { offset: 0x7CA01, size: 0x8, addend: 0x0, symName: '___26+[Settings loadSettings2:]_block_invoke', symObjAddr: 0x3380, symBinAddr: 0x10001A030, symSize: 0x450 }
-  - { offset: 0x7CAAC, size: 0x8, addend: 0x0, symName: '+[Settings loadSettings]', symObjAddr: 0x37D0, symBinAddr: 0x10001A480, symSize: 0xB0 }
-  - { offset: 0x7CB22, size: 0x8, addend: 0x0, symName: '+[Settings loadSettings:]', symObjAddr: 0x3880, symBinAddr: 0x10001A530, symSize: 0x89 }
-  - { offset: 0x7CCEF, size: 0x8, addend: 0x0, symName: '-[GestureWindow init]', symObjAddr: 0x0, symBinAddr: 0x10001A5C0, symSize: 0x2B0 }
-  - { offset: 0x7CD09, size: 0x8, addend: 0x0, symName: _trackpadWidth, symObjAddr: 0xBC8, symBinAddr: 0x1000263A4, symSize: 0x0 }
-  - { offset: 0x7CD27, size: 0x8, addend: 0x0, symName: _trackpadHeight, symObjAddr: 0xBCC, symBinAddr: 0x1000263A8, symSize: 0x0 }
-  - { offset: 0x7CD3D, size: 0x8, addend: 0x0, symName: _magicMouseWidth, symObjAddr: 0xBD0, symBinAddr: 0x1000263AC, symSize: 0x0 }
-  - { offset: 0x7CD53, size: 0x8, addend: 0x0, symName: _magicMouseHeight, symObjAddr: 0xBD4, symBinAddr: 0x1000263B0, symSize: 0x0 }
-  - { offset: 0x7CE34, size: 0x8, addend: 0x0, symName: '-[GestureWindow init]', symObjAddr: 0x0, symBinAddr: 0x10001A5C0, symSize: 0x2B0 }
-  - { offset: 0x7CEC0, size: 0x8, addend: 0x0, symName: '-[GestureWindow setUpWindowForTrackpad]', symObjAddr: 0x2B0, symBinAddr: 0x10001A870, symSize: 0x370 }
-  - { offset: 0x7CFC6, size: 0x8, addend: 0x0, symName: '-[GestureWindow setUpWindowForMagicMouse]', symObjAddr: 0x620, symBinAddr: 0x10001ABE0, symSize: 0x120 }
-  - { offset: 0x7D05E, size: 0x8, addend: 0x0, symName: '-[GestureWindow setPossibleAlphabet:]', symObjAddr: 0x740, symBinAddr: 0x10001AD00, symSize: 0x40 }
-  - { offset: 0x7D0A2, size: 0x8, addend: 0x0, symName: '-[GestureWindow drawRect:]', symObjAddr: 0x780, symBinAddr: 0x10001AD40, symSize: 0x10 }
-  - { offset: 0x7D0E6, size: 0x8, addend: 0x0, symName: '-[GestureWindow addPointX:Y:]', symObjAddr: 0x790, symBinAddr: 0x10001AD50, symSize: 0x50 }
-  - { offset: 0x7D139, size: 0x8, addend: 0x0, symName: '-[GestureWindow addRelativePointX:Y:]', symObjAddr: 0x7E0, symBinAddr: 0x10001ADA0, symSize: 0x50 }
-  - { offset: 0x7D18C, size: 0x8, addend: 0x0, symName: '-[GestureWindow clear]', symObjAddr: 0x830, symBinAddr: 0x10001ADF0, symSize: 0x40 }
-  - { offset: 0x7D1C1, size: 0x8, addend: 0x0, symName: '-[GestureWindow refresh]', symObjAddr: 0x870, symBinAddr: 0x10001AE30, symSize: 0x40 }
-  - { offset: 0x7D1F6, size: 0x8, addend: 0x0, symName: '-[GestureWindow setHintText:]', symObjAddr: 0x8B0, symBinAddr: 0x10001AE70, symSize: 0x50 }
-  - { offset: 0x7D23A, size: 0x8, addend: 0x0, symName: '-[GestureWindow dealloc]', symObjAddr: 0x900, symBinAddr: 0x10001AEC0, symSize: 0x4E }
-  - { offset: 0x7D2FD, size: 0x8, addend: 0x0, symName: '-[GestureView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x10001AF10, symSize: 0xA0 }
-  - { offset: 0x7D35A, size: 0x8, addend: 0x0, symName: '-[GestureView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x10001AF10, symSize: 0xA0 }
-  - { offset: 0x7D3A2, size: 0x8, addend: 0x0, symName: '-[GestureView drawRect:]', symObjAddr: 0xA0, symBinAddr: 0x10001AFB0, symSize: 0x610 }
-  - { offset: 0x7D483, size: 0x8, addend: 0x0, symName: _CGRectMake, symObjAddr: 0x6B0, symBinAddr: 0x10001B5C0, symSize: 0x50 }
-  - { offset: 0x7D4EF, size: 0x8, addend: 0x0, symName: _CGPointMake, symObjAddr: 0x700, symBinAddr: 0x10001B610, symSize: 0x30 }
-  - { offset: 0x7D575, size: 0x8, addend: 0x0, symName: '-[GestureView addPointX:Y:]', symObjAddr: 0x730, symBinAddr: 0x10001B640, symSize: 0x1F0 }
-  - { offset: 0x7D638, size: 0x8, addend: 0x0, symName: '-[GestureView addRelativePointX:Y:]', symObjAddr: 0x920, symBinAddr: 0x10001B830, symSize: 0x190 }
-  - { offset: 0x7D6EB, size: 0x8, addend: 0x0, symName: '-[GestureView clear]', symObjAddr: 0xAB0, symBinAddr: 0x10001B9C0, symSize: 0x50 }
-  - { offset: 0x7D720, size: 0x8, addend: 0x0, symName: '-[GestureView setHintText:]', symObjAddr: 0xB00, symBinAddr: 0x10001BA10, symSize: 0x40 }
-  - { offset: 0x7D764, size: 0x8, addend: 0x0, symName: '-[GestureView dealloc]', symObjAddr: 0xB40, symBinAddr: 0x10001BA50, symSize: 0x4E }
-  - { offset: 0x7D82F, size: 0x8, addend: 0x0, symName: '-[SizeHistory initWithCurRect:SaveRect:]', symObjAddr: 0x0, symBinAddr: 0x10001BAA0, symSize: 0xB0 }
-  - { offset: 0x7D8AC, size: 0x8, addend: 0x0, symName: '-[SizeHistory initWithCurRect:SaveRect:]', symObjAddr: 0x0, symBinAddr: 0x10001BAA0, symSize: 0xB0 }
-  - { offset: 0x7D903, size: 0x8, addend: 0x0, symName: '-[SizeHistory curRect]', symObjAddr: 0xB0, symBinAddr: 0x10001BB50, symSize: 0x40 }
-  - { offset: 0x7D93C, size: 0x8, addend: 0x0, symName: '-[SizeHistory savRect]', symObjAddr: 0xF0, symBinAddr: 0x10001BB90, symSize: 0x40 }
-  - { offset: 0x7D975, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey initWithKey:]', symObjAddr: 0x130, symBinAddr: 0x10001BBD0, symSize: 0x60 }
-  - { offset: 0x7D9BD, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey setWindowRef:]', symObjAddr: 0x190, symBinAddr: 0x10001BC30, symSize: 0x40 }
-  - { offset: 0x7DA01, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey copyWithZone:]', symObjAddr: 0x1D0, symBinAddr: 0x10001BC70, symSize: 0x60 }
-  - { offset: 0x7DA58, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey dealloc]', symObjAddr: 0x230, symBinAddr: 0x10001BCD0, symSize: 0x50 }
-  - { offset: 0x7DA8D, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey isEqual:]', symObjAddr: 0x280, symBinAddr: 0x10001BD20, symSize: 0x30 }
-  - { offset: 0x7DAD5, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey hash]', symObjAddr: 0x2B0, symBinAddr: 0x10001BD50, symSize: 0x23 }
-  - { offset: 0x7DB98, size: 0x8, addend: 0x0, symName: '-[KeyUtility init]', symObjAddr: 0x0, symBinAddr: 0x10001BD80, symSize: 0x140 }
-  - { offset: 0x7DBD4, size: 0x8, addend: 0x0, symName: _a, symObjAddr: 0x3370, symBinAddr: 0x10002A6C0, symSize: 0x0 }
-  - { offset: 0x7DC28, size: 0x8, addend: 0x0, symName: '-[KeyUtility init]', symObjAddr: 0x0, symBinAddr: 0x10001BD80, symSize: 0x140 }
-  - { offset: 0x7DC7F, size: 0x8, addend: 0x0, symName: _languageChanged, symObjAddr: 0x140, symBinAddr: 0x10001BEC0, symSize: 0x150 }
-  - { offset: 0x7DD0E, size: 0x8, addend: 0x0, symName: '-[KeyUtility simulateKeyCode:ShftDown:CtrlDown:AltDown:CmdDown:]', symObjAddr: 0x290, symBinAddr: 0x10001C010, symSize: 0x140 }
-  - { offset: 0x7DD8E, size: 0x8, addend: 0x0, symName: '-[KeyUtility simulateKey:ShftDown:CtrlDown:AltDown:CmdDown:]', symObjAddr: 0x3D0, symBinAddr: 0x10001C150, symSize: 0xC0 }
-  - { offset: 0x7DE1D, size: 0x8, addend: 0x0, symName: '-[KeyUtility simulateSpecialKey:]', symObjAddr: 0x490, symBinAddr: 0x10001C210, symSize: 0x150 }
-  - { offset: 0x7DE8E, size: 0x8, addend: 0x0, symName: '-[KeyUtility charToCode:]', symObjAddr: 0x5E0, symBinAddr: 0x10001C360, symSize: 0x50 }
-  - { offset: 0x7DED6, size: 0x8, addend: 0x0, symName: '+[KeyUtility codeToChar:]', symObjAddr: 0x630, symBinAddr: 0x10001C3B0, symSize: 0x5C4 }
+  - { offset: 0x75680, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000FF0, symSize: 0x80 }
+  - { offset: 0x75696, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000FF0, symSize: 0x80 }
+  - { offset: 0x756DE, size: 0x8, addend: 0x0, symName: ___main_block_invoke, symObjAddr: 0x80, symBinAddr: 0x100001070, symSize: 0x40 }
+  - { offset: 0x75708, size: 0x8, addend: 0x0, symName: ___main_block_invoke_2, symObjAddr: 0xC0, symBinAddr: 0x1000010B0, symSize: 0x3D }
+  - { offset: 0x7584A, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate unloadJitouchLaunchAgent]', symObjAddr: 0x0, symBinAddr: 0x1000010F0, symSize: 0x90 }
+  - { offset: 0x7588B, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate checkPermissionStatus]', symObjAddr: 0x930, symBinAddr: 0x100001A20, symSize: 0x90 }
+  - { offset: 0x758B1, size: 0x8, addend: 0x0, symName: _checkPermissionStatus.lastPermissionState, symObjAddr: 0x59C5, symBinAddr: 0x1000255D0, symSize: 0x0 }
+  - { offset: 0x758F9, size: 0x8, addend: 0x0, symName: _cursorWindow, symObjAddr: 0x59D0, symBinAddr: 0x100029790, symSize: 0x0 }
+  - { offset: 0x75938, size: 0x8, addend: 0x0, symName: _keyMap, symObjAddr: 0x59E0, symBinAddr: 0x1000297A0, symSize: 0x0 }
+  - { offset: 0x75A06, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate unloadJitouchLaunchAgent]', symObjAddr: 0x0, symBinAddr: 0x1000010F0, symSize: 0x90 }
+  - { offset: 0x75A68, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate validateMenuItem:]', symObjAddr: 0x90, symBinAddr: 0x100001180, symSize: 0x20 }
+  - { offset: 0x75AB0, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate showIcon]', symObjAddr: 0xB0, symBinAddr: 0x1000011A0, symSize: 0x1F0 }
+  - { offset: 0x75AF4, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate hideIcon]', symObjAddr: 0x2A0, symBinAddr: 0x100001390, symSize: 0x60 }
+  - { offset: 0x75B29, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate updateIconImage]', symObjAddr: 0x300, symBinAddr: 0x1000013F0, symSize: 0xC0 }
+  - { offset: 0x75B9A, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate preferences:]', symObjAddr: 0x3C0, symBinAddr: 0x1000014B0, symSize: 0x160 }
+  - { offset: 0x75C0B, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate quit:]', symObjAddr: 0x520, symBinAddr: 0x100001610, symSize: 0x50 }
+  - { offset: 0x75C4F, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate refreshMenu]', symObjAddr: 0x570, symBinAddr: 0x100001660, symSize: 0x150 }
+  - { offset: 0x75C84, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate switchChange:]', symObjAddr: 0x6C0, symBinAddr: 0x1000017B0, symSize: 0x70 }
+  - { offset: 0x75CC8, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate saveSettings]', symObjAddr: 0x730, symBinAddr: 0x100001820, symSize: 0x50 }
+  - { offset: 0x75CFD, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate settingsUpdated:]', symObjAddr: 0x780, symBinAddr: 0x100001870, symSize: 0x70 }
+  - { offset: 0x75D41, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate checkAXAPI]', symObjAddr: 0x7F0, symBinAddr: 0x1000018E0, symSize: 0xF0 }
+  - { offset: 0x75D85, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate startPermissionMonitoring]', symObjAddr: 0x8E0, symBinAddr: 0x1000019D0, symSize: 0x50 }
+  - { offset: 0x75DBA, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate applicationDidFinishLaunching:]', symObjAddr: 0x9C0, symBinAddr: 0x100001AB0, symSize: 0x140 }
+  - { offset: 0x75DFE, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate wokeUp:]', symObjAddr: 0xB00, symBinAddr: 0x100001BF0, symSize: 0x40 }
+  - { offset: 0x75E42, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate reload]', symObjAddr: 0xB40, symBinAddr: 0x100001C30, symSize: 0x30 }
+  - { offset: 0x75E77, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate dealloc]', symObjAddr: 0xB70, symBinAddr: 0x100001C60, symSize: 0x50 }
+  - { offset: 0x75EAC, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate window]', symObjAddr: 0xBC0, symBinAddr: 0x100001CB0, symSize: 0x20 }
+  - { offset: 0x75EE5, size: 0x8, addend: 0x0, symName: '-[JitouchAppDelegate setWindow:]', symObjAddr: 0xBE0, symBinAddr: 0x100001CD0, symSize: 0x1E }
+  - { offset: 0x75F99, size: 0x8, addend: 0x0, symName: _turnOffGestures, symObjAddr: 0x0, symBinAddr: 0x100001CF0, symSize: 0x20 }
+  - { offset: 0x75FC4, size: 0x8, addend: 0x0, symName: _eventTapTries, symObjAddr: 0x2E6D0, symBinAddr: 0x1000298A8, symSize: 0x0 }
+  - { offset: 0x75FE2, size: 0x8, addend: 0x0, symName: _eventTap, symObjAddr: 0x2E6E8, symBinAddr: 0x1000255E8, symSize: 0x0 }
+  - { offset: 0x7603C, size: 0x8, addend: 0x0, symName: _recreatingEventTap, symObjAddr: 0x2E6F0, symBinAddr: 0x1000255F0, symSize: 0x0 }
+  - { offset: 0x7605A, size: 0x8, addend: 0x0, symName: _lastTwoFingerDate, symObjAddr: 0x2E700, symBinAddr: 0x100025600, symSize: 0x0 }
+  - { offset: 0x76076, size: 0x8, addend: 0x0, symName: _lastThreeFingerDate, symObjAddr: 0x2E708, symBinAddr: 0x100025608, symSize: 0x0 }
+  - { offset: 0x7608C, size: 0x8, addend: 0x0, symName: _gestureWindow, symObjAddr: 0x2E710, symBinAddr: 0x100025610, symSize: 0x0 }
+  - { offset: 0x760E4, size: 0x8, addend: 0x0, symName: _me, symObjAddr: 0x2E6E0, symBinAddr: 0x1000255E0, symSize: 0x0 }
+  - { offset: 0x76111, size: 0x8, addend: 0x0, symName: _sizeHistoryDict, symObjAddr: 0x2E718, symBinAddr: 0x100025618, symSize: 0x0 }
+  - { offset: 0x7612D, size: 0x8, addend: 0x0, symName: _keyUtil, symObjAddr: 0x2E720, symBinAddr: 0x100025620, symSize: 0x0 }
+  - { offset: 0x76167, size: 0x8, addend: 0x0, symName: _deviceList, symObjAddr: 0x2E6C8, symBinAddr: 0x1000298A0, symSize: 0x0 }
+  - { offset: 0x7617E, size: 0x8, addend: 0x0, symName: _hint_firstPos, symObjAddr: 0x2E728, symBinAddr: 0x100025628, symSize: 0x0 }
+  - { offset: 0x761AB, size: 0x8, addend: 0x0, symName: _hint_x, symObjAddr: 0x2E730, symBinAddr: 0x100025630, symSize: 0x0 }
+  - { offset: 0x761C2, size: 0x8, addend: 0x0, symName: _hint_y, symObjAddr: 0x2E734, symBinAddr: 0x100025634, symSize: 0x0 }
+  - { offset: 0x761D9, size: 0x8, addend: 0x0, symName: _hint_top, symObjAddr: 0x2E738, symBinAddr: 0x100025638, symSize: 0x0 }
+  - { offset: 0x761F0, size: 0x8, addend: 0x0, symName: _hint_bottom, symObjAddr: 0x2E73C, symBinAddr: 0x10002563C, symSize: 0x0 }
+  - { offset: 0x76207, size: 0x8, addend: 0x0, symName: _hint_left, symObjAddr: 0x2E740, symBinAddr: 0x100025640, symSize: 0x0 }
+  - { offset: 0x7621E, size: 0x8, addend: 0x0, symName: _hint_right, symObjAddr: 0x2E744, symBinAddr: 0x100025644, symSize: 0x0 }
+  - { offset: 0x76234, size: 0x8, addend: 0x0, symName: _trackpadNFingers, symObjAddr: 0x2E748, symBinAddr: 0x100025648, symSize: 0x0 }
+  - { offset: 0x7624A, size: 0x8, addend: 0x0, symName: _middleClickFlag, symObjAddr: 0x2E74C, symBinAddr: 0x10002564C, symSize: 0x0 }
+  - { offset: 0x76260, size: 0x8, addend: 0x0, symName: _magicMouseThreeFingerFlag, symObjAddr: 0x2E750, symBinAddr: 0x100025650, symSize: 0x0 }
+  - { offset: 0x76276, size: 0x8, addend: 0x0, symName: _simulating, symObjAddr: 0x2E754, symBinAddr: 0x100025654, symSize: 0x0 }
+  - { offset: 0x7628C, size: 0x8, addend: 0x0, symName: _disableHorizontalScroll, symObjAddr: 0x2E758, symBinAddr: 0x100025658, symSize: 0x0 }
+  - { offset: 0x762A2, size: 0x8, addend: 0x0, symName: _quickTabSwitching, symObjAddr: 0x2E75C, symBinAddr: 0x10002565C, symSize: 0x0 }
+  - { offset: 0x762B8, size: 0x8, addend: 0x0, symName: _isTrackpadRecognizing, symObjAddr: 0x2E760, symBinAddr: 0x100025660, symSize: 0x0 }
+  - { offset: 0x762CE, size: 0x8, addend: 0x0, symName: _isMouseRecognizing, symObjAddr: 0x2E764, symBinAddr: 0x100025664, symSize: 0x0 }
+  - { offset: 0x762D8, size: 0x8, addend: 0x0, symName: _trackpadCallback, symObjAddr: 0x550, symBinAddr: 0x100002240, symSize: 0xA60 }
+  - { offset: 0x76300, size: 0x8, addend: 0x0, symName: _trackpadCallback.thumbId, symObjAddr: 0x18034, symBinAddr: 0x1000254A4, symSize: 0x0 }
+  - { offset: 0x764E8, size: 0x8, addend: 0x0, symName: _twoFingersDistance, symObjAddr: 0x18030, symBinAddr: 0x1000254A0, symSize: 0x0 }
+  - { offset: 0x764FE, size: 0x8, addend: 0x0, symName: _trackpadHasTwoFingers, symObjAddr: 0x2E768, symBinAddr: 0x100025668, symSize: 0x0 }
+  - { offset: 0x76508, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo, symObjAddr: 0x65C0, symBinAddr: 0x1000082B0, symSize: 0xA60 }
+  - { offset: 0x7652C, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.lpos, symObjAddr: 0x2E76C, symBinAddr: 0x10002566C, symSize: 0x0 }
+  - { offset: 0x76543, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.step, symObjAddr: 0x2E774, symBinAddr: 0x100025674, symSize: 0x0 }
+  - { offset: 0x76567, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.firstPos, symObjAddr: 0x2E778, symBinAddr: 0x100025678, symSize: 0x0 }
+  - { offset: 0x7657E, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.top, symObjAddr: 0x2E780, symBinAddr: 0x100025680, symSize: 0x0 }
+  - { offset: 0x76595, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.bottom, symObjAddr: 0x2E784, symBinAddr: 0x100025684, symSize: 0x0 }
+  - { offset: 0x765AC, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.left, symObjAddr: 0x2E788, symBinAddr: 0x100025688, symSize: 0x0 }
+  - { offset: 0x765C3, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.right, symObjAddr: 0x2E78C, symBinAddr: 0x10002568C, symSize: 0x0 }
+  - { offset: 0x765DA, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.fing, symObjAddr: 0x2E790, symBinAddr: 0x100025690, symSize: 0x0 }
+  - { offset: 0x765F1, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.sttime, symObjAddr: 0x2E7A0, symBinAddr: 0x1000256A0, symSize: 0x0 }
+  - { offset: 0x76608, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.commandString, symObjAddr: 0x2E7A8, symBinAddr: 0x1000256A8, symSize: 0x0 }
+  - { offset: 0x7661F, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.hintTime, symObjAddr: 0x2E7B0, symBinAddr: 0x1000256B0, symSize: 0x0 }
+  - { offset: 0x76636, size: 0x8, addend: 0x0, symName: _trackpadRecognizerTwo.distCounter, symObjAddr: 0x2E7B8, symBinAddr: 0x1000256B8, symSize: 0x0 }
+  - { offset: 0x76725, size: 0x8, addend: 0x0, symName: _nChars, symObjAddr: 0x2E7C0, symBinAddr: 0x1000256C0, symSize: 0x0 }
+  - { offset: 0x7673B, size: 0x8, addend: 0x0, symName: _chars, symObjAddr: 0x2E7D0, symBinAddr: 0x1000256D0, symSize: 0x0 }
+  - { offset: 0x767EE, size: 0x8, addend: 0x0, symName: _emptyString, symObjAddr: 0x18038, symBinAddr: 0x1000254A8, symSize: 0x0 }
+  - { offset: 0x76804, size: 0x8, addend: 0x0, symName: _cancelRecognition, symObjAddr: 0x2E7BC, symBinAddr: 0x1000256BC, symSize: 0x0 }
+  - { offset: 0x76821, size: 0x8, addend: 0x0, symName: _findTabGroup_lx, symObjAddr: 0x31CF0, symBinAddr: 0x100028BF0, symSize: 0x0 }
+  - { offset: 0x76845, size: 0x8, addend: 0x0, symName: _deviceTypeName, symObjAddr: 0x18040, symBinAddr: 0x1000254B0, symSize: 0x0 }
+  - { offset: 0x76875, size: 0x8, addend: 0x0, symName: _normPdf, symObjAddr: 0x31D00, symBinAddr: 0x100028C00, symSize: 0x0 }
+  - { offset: 0x76899, size: 0x8, addend: 0x0, symName: _normIPdf, symObjAddr: 0x32030, symBinAddr: 0x100028F30, symSize: 0x0 }
+  - { offset: 0x768A3, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne, symObjAddr: 0x7020, symBinAddr: 0x100008D10, symSize: 0x830 }
+  - { offset: 0x768C7, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.lpos, symObjAddr: 0x32354, symBinAddr: 0x100029254, symSize: 0x0 }
+  - { offset: 0x768DE, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.step, symObjAddr: 0x3235C, symBinAddr: 0x10002925C, symSize: 0x0 }
+  - { offset: 0x76902, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.firstPos, symObjAddr: 0x32360, symBinAddr: 0x100029260, symSize: 0x0 }
+  - { offset: 0x76919, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.top, symObjAddr: 0x32368, symBinAddr: 0x100029268, symSize: 0x0 }
+  - { offset: 0x76930, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.bottom, symObjAddr: 0x3236C, symBinAddr: 0x10002926C, symSize: 0x0 }
+  - { offset: 0x76947, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.left, symObjAddr: 0x32370, symBinAddr: 0x100029270, symSize: 0x0 }
+  - { offset: 0x7695E, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.right, symObjAddr: 0x32374, symBinAddr: 0x100029274, symSize: 0x0 }
+  - { offset: 0x76975, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.sttime, symObjAddr: 0x18058, symBinAddr: 0x1000254C8, symSize: 0x0 }
+  - { offset: 0x7698C, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.fing, symObjAddr: 0x32380, symBinAddr: 0x100029280, symSize: 0x0 }
+  - { offset: 0x769A3, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.fixId, symObjAddr: 0x32390, symBinAddr: 0x100029290, symSize: 0x0 }
+  - { offset: 0x769BA, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.hintTime, symObjAddr: 0x32398, symBinAddr: 0x100029298, symSize: 0x0 }
+  - { offset: 0x769D1, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.mx, symObjAddr: 0x323A0, symBinAddr: 0x1000292A0, symSize: 0x0 }
+  - { offset: 0x769E8, size: 0x8, addend: 0x0, symName: _trackpadRecognizerOne.my, symObjAddr: 0x323A8, symBinAddr: 0x1000292A8, symSize: 0x0 }
+  - { offset: 0x76A63, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize, symObjAddr: 0x7850, symBinAddr: 0x100009540, symSize: 0xD20 }
+  - { offset: 0x76A8B, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.step, symObjAddr: 0x323B0, symBinAddr: 0x1000292B0, symSize: 0x0 }
+  - { offset: 0x76AA2, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.step2, symObjAddr: 0x323B4, symBinAddr: 0x1000292B4, symSize: 0x0 }
+  - { offset: 0x76AB9, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.min, symObjAddr: 0x323B8, symBinAddr: 0x1000292B8, symSize: 0x0 }
+  - { offset: 0x76AD0, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.fing, symObjAddr: 0x323C0, symBinAddr: 0x1000292C0, symSize: 0x0 }
+  - { offset: 0x76AE7, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.fing2, symObjAddr: 0x323D0, symBinAddr: 0x1000292D0, symSize: 0x0 }
+  - { offset: 0x76AFE, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.sttime, symObjAddr: 0x18060, symBinAddr: 0x1000254D0, symSize: 0x0 }
+  - { offset: 0x76B15, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.type, symObjAddr: 0x323E0, symBinAddr: 0x1000292E0, symSize: 0x0 }
+  - { offset: 0x76B2C, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.cWindow, symObjAddr: 0x323E8, symBinAddr: 0x1000292E8, symSize: 0x0 }
+  - { offset: 0x76B43, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.baseX, symObjAddr: 0x323F0, symBinAddr: 0x1000292F0, symSize: 0x0 }
+  - { offset: 0x76B5A, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.baseY, symObjAddr: 0x323F8, symBinAddr: 0x1000292F8, symSize: 0x0 }
+  - { offset: 0x76B71, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.appX, symObjAddr: 0x32400, symBinAddr: 0x100029300, symSize: 0x0 }
+  - { offset: 0x76B88, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.appY, symObjAddr: 0x32408, symBinAddr: 0x100029308, symSize: 0x0 }
+  - { offset: 0x76B9F, size: 0x8, addend: 0x0, symName: _gestureTrackpadMoveResize.firstTime, symObjAddr: 0x32410, symBinAddr: 0x100029310, symSize: 0x0 }
+  - { offset: 0x76C77, size: 0x8, addend: 0x0, symName: _moveResizeFlag, symObjAddr: 0x32414, symBinAddr: 0x100029314, symSize: 0x0 }
+  - { offset: 0x76C8D, size: 0x8, addend: 0x0, symName: _shouldExitMoveResize, symObjAddr: 0x32418, symBinAddr: 0x100029318, symSize: 0x0 }
+  - { offset: 0x76C97, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll, symObjAddr: 0x8570, symBinAddr: 0x10000A260, symSize: 0x420 }
+  - { offset: 0x76CBB, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.sttime, symObjAddr: 0x32420, symBinAddr: 0x100029320, symSize: 0x0 }
+  - { offset: 0x76CD2, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.step, symObjAddr: 0x32428, symBinAddr: 0x100029328, symSize: 0x0 }
+  - { offset: 0x76CE9, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.midY, symObjAddr: 0x3242C, symBinAddr: 0x10002932C, symSize: 0x0 }
+  - { offset: 0x76D00, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.startAlready, symObjAddr: 0x32430, symBinAddr: 0x100029330, symSize: 0x0 }
+  - { offset: 0x76D17, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.shouldCheck, symObjAddr: 0x18068, symBinAddr: 0x1000254D8, symSize: 0x0 }
+  - { offset: 0x76D2E, size: 0x8, addend: 0x0, symName: _gestureTrackpadAutoScroll.chk, symObjAddr: 0x32434, symBinAddr: 0x100029334, symSize: 0x0 }
+  - { offset: 0x76DE2, size: 0x8, addend: 0x0, symName: _autoScrollFlag, symObjAddr: 0x3243C, symBinAddr: 0x10002933C, symSize: 0x0 }
+  - { offset: 0x76DEC, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap, symObjAddr: 0x8990, symBinAddr: 0x10000A680, symSize: 0x450 }
+  - { offset: 0x76E10, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.sttime, symObjAddr: 0x18070, symBinAddr: 0x1000254E0, symSize: 0x0 }
+  - { offset: 0x76E27, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.fing, symObjAddr: 0x32440, symBinAddr: 0x100029340, symSize: 0x0 }
+  - { offset: 0x76E3E, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.step, symObjAddr: 0x32450, symBinAddr: 0x100029350, symSize: 0x0 }
+  - { offset: 0x76E55, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.restTime, symObjAddr: 0x18078, symBinAddr: 0x1000254E8, symSize: 0x0 }
+  - { offset: 0x76E6C, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.fixId, symObjAddr: 0x32454, symBinAddr: 0x100029354, symSize: 0x0 }
+  - { offset: 0x76E83, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.avgx, symObjAddr: 0x32458, symBinAddr: 0x100029358, symSize: 0x0 }
+  - { offset: 0x76E9A, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixOneTap.avgy, symObjAddr: 0x3245C, symBinAddr: 0x10002935C, symSize: 0x0 }
+  - { offset: 0x76ED5, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap, symObjAddr: 0x8DE0, symBinAddr: 0x10000AAD0, symSize: 0x400 }
+  - { offset: 0x76EF9, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap.sttime, symObjAddr: 0x18080, symBinAddr: 0x1000254F0, symSize: 0x0 }
+  - { offset: 0x76F10, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap.step, symObjAddr: 0x32460, symBinAddr: 0x100029360, symSize: 0x0 }
+  - { offset: 0x76F27, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap.fing, symObjAddr: 0x32470, symBinAddr: 0x100029370, symSize: 0x0 }
+  - { offset: 0x76F3E, size: 0x8, addend: 0x0, symName: _gestureTrackpadThreeFingerTap.idf, symObjAddr: 0x324A0, symBinAddr: 0x1000293A0, symSize: 0x0 }
+  - { offset: 0x77005, size: 0x8, addend: 0x0, symName: _trackpadClicked, symObjAddr: 0x324AC, symBinAddr: 0x1000293AC, symSize: 0x0 }
+  - { offset: 0x7700F, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide, symObjAddr: 0x91E0, symBinAddr: 0x10000AED0, symSize: 0x730 }
+  - { offset: 0x77033, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.ena, symObjAddr: 0x324B0, symBinAddr: 0x1000293B0, symSize: 0x0 }
+  - { offset: 0x7704A, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.min, symObjAddr: 0x324B4, symBinAddr: 0x1000293B4, symSize: 0x0 }
+  - { offset: 0x77061, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.find, symObjAddr: 0x324B8, symBinAddr: 0x1000293B8, symSize: 0x0 }
+  - { offset: 0x77078, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.findc, symObjAddr: 0x324C4, symBinAddr: 0x1000293C4, symSize: 0x0 }
+  - { offset: 0x7708F, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.avgy, symObjAddr: 0x324C8, symBinAddr: 0x1000293C8, symSize: 0x0 }
+  - { offset: 0x770A6, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.avgx, symObjAddr: 0x324CC, symBinAddr: 0x1000293CC, symSize: 0x0 }
+  - { offset: 0x770BD, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.waitFor4, symObjAddr: 0x324D0, symBinAddr: 0x1000293D0, symSize: 0x0 }
+  - { offset: 0x770D4, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.reset, symObjAddr: 0x324D8, symBinAddr: 0x1000293D8, symSize: 0x0 }
+  - { offset: 0x770EB, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.lastNFingers, symObjAddr: 0x324DC, symBinAddr: 0x1000293DC, symSize: 0x0 }
+  - { offset: 0x77102, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.fixX, symObjAddr: 0x324E0, symBinAddr: 0x1000293E0, symSize: 0x0 }
+  - { offset: 0x77119, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.fixY, symObjAddr: 0x324E8, symBinAddr: 0x1000293E8, symSize: 0x0 }
+  - { offset: 0x77130, size: 0x8, addend: 0x0, symName: _gestureTrackpadOneFixTwoSlide.fing, symObjAddr: 0x324F0, symBinAddr: 0x1000293F0, symSize: 0x0 }
+  - { offset: 0x7726D, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace, symObjAddr: 0x9910, symBinAddr: 0x10000B600, symSize: 0x640 }
+  - { offset: 0x77291, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.step, symObjAddr: 0x32508, symBinAddr: 0x100029408, symSize: 0x0 }
+  - { offset: 0x772A8, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.fing, symObjAddr: 0x32510, symBinAddr: 0x100029410, symSize: 0x0 }
+  - { offset: 0x772BF, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.mini, symObjAddr: 0x32528, symBinAddr: 0x100029428, symSize: 0x0 }
+  - { offset: 0x772D6, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.move, symObjAddr: 0x3252C, symBinAddr: 0x10002942C, symSize: 0x0 }
+  - { offset: 0x772ED, size: 0x8, addend: 0x0, symName: _gestureTrackpadChangeSpace.last, symObjAddr: 0x32530, symBinAddr: 0x100029430, symSize: 0x0 }
+  - { offset: 0x77385, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4, symObjAddr: 0x9F50, symBinAddr: 0x10000BC40, symSize: 0x460 }
+  - { offset: 0x773A9, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.sttime, symObjAddr: 0x18090, symBinAddr: 0x100025500, symSize: 0x0 }
+  - { offset: 0x773C0, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.lastNFingers, symObjAddr: 0x32538, symBinAddr: 0x100029438, symSize: 0x0 }
+  - { offset: 0x773D7, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.avgX, symObjAddr: 0x32540, symBinAddr: 0x100029440, symSize: 0x0 }
+  - { offset: 0x773EE, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.avgY, symObjAddr: 0x32548, symBinAddr: 0x100029448, symSize: 0x0 }
+  - { offset: 0x77405, size: 0x8, addend: 0x0, symName: _gestureTrackpadTab4.step, symObjAddr: 0x32550, symBinAddr: 0x100029450, symSize: 0x0 }
+  - { offset: 0x774C8, size: 0x8, addend: 0x0, symName: _fourFingerTapTriggered, symObjAddr: 0x32558, symBinAddr: 0x100029458, symSize: 0x0 }
+  - { offset: 0x774DE, size: 0x8, addend: 0x0, symName: _trackpadTab4Step, symObjAddr: 0x3255C, symBinAddr: 0x10002945C, symSize: 0x0 }
+  - { offset: 0x774E8, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap, symObjAddr: 0xA3B0, symBinAddr: 0x10000C0A0, symSize: 0x3F0 }
+  - { offset: 0x7750C, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap.sttime, symObjAddr: 0x180A0, symBinAddr: 0x100025510, symSize: 0x0 }
+  - { offset: 0x77523, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap.step, symObjAddr: 0x32564, symBinAddr: 0x100029464, symSize: 0x0 }
+  - { offset: 0x7753A, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap.fing, symObjAddr: 0x32570, symBinAddr: 0x100029470, symSize: 0x0 }
+  - { offset: 0x77551, size: 0x8, addend: 0x0, symName: _gestureTrackpadFourFingerTap.fourFingerTapTime, symObjAddr: 0x325B0, symBinAddr: 0x1000294B0, symSize: 0x0 }
+  - { offset: 0x775CC, size: 0x8, addend: 0x0, symName: _trackpadTab4Triggered, symObjAddr: 0x2E769, symBinAddr: 0x100025669, symSize: 0x0 }
+  - { offset: 0x775D6, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers, symObjAddr: 0xA7A0, symBinAddr: 0x10000C490, symSize: 0xDC0 }
+  - { offset: 0x775FA, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.startx, symObjAddr: 0x325B8, symBinAddr: 0x1000294B8, symSize: 0x0 }
+  - { offset: 0x77611, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.starty, symObjAddr: 0x325C4, symBinAddr: 0x1000294C4, symSize: 0x0 }
+  - { offset: 0x77628, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.lastNFingers, symObjAddr: 0x325D0, symBinAddr: 0x1000294D0, symSize: 0x0 }
+  - { offset: 0x7763F, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.type, symObjAddr: 0x325D4, symBinAddr: 0x1000294D4, symSize: 0x0 }
+  - { offset: 0x77656, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.l, symObjAddr: 0x325D8, symBinAddr: 0x1000294D8, symSize: 0x0 }
+  - { offset: 0x7766D, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeThreeFingers.r, symObjAddr: 0x325DC, symBinAddr: 0x1000294DC, symSize: 0x0 }
+  - { offset: 0x7792A, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers, symObjAddr: 0xB560, symBinAddr: 0x10000D250, symSize: 0x580 }
+  - { offset: 0x7794E, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers.startx, symObjAddr: 0x325E0, symBinAddr: 0x1000294E0, symSize: 0x0 }
+  - { offset: 0x77965, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers.starty, symObjAddr: 0x325F0, symBinAddr: 0x1000294F0, symSize: 0x0 }
+  - { offset: 0x7797C, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers.lastNFingers, symObjAddr: 0x32600, symBinAddr: 0x100029500, symSize: 0x0 }
+  - { offset: 0x77993, size: 0x8, addend: 0x0, symName: _gestureTrackpadSwipeFourFingers.type, symObjAddr: 0x32604, symBinAddr: 0x100029504, symSize: 0x0 }
+  - { offset: 0x77B05, size: 0x8, addend: 0x0, symName: _gestureTrackpadForceTouchTap, symObjAddr: 0xBAE0, symBinAddr: 0x10000D7D0, symSize: 0x480 }
+  - { offset: 0x77B29, size: 0x8, addend: 0x0, symName: _gestureTrackpadForceTouchTap.step, symObjAddr: 0x32608, symBinAddr: 0x100029508, symSize: 0x0 }
+  - { offset: 0x77B40, size: 0x8, addend: 0x0, symName: _gestureTrackpadForceTouchTap.sttime, symObjAddr: 0x180A8, symBinAddr: 0x100025518, symSize: 0x0 }
+  - { offset: 0x77B57, size: 0x8, addend: 0x0, symName: _gestureTrackpadForceTouchTap.startPressure, symObjAddr: 0x3260C, symBinAddr: 0x10002950C, symSize: 0x0 }
+  - { offset: 0x77B6E, size: 0x8, addend: 0x0, symName: _gestureTrackpadForceTouchTap.startPos, symObjAddr: 0x32620, symBinAddr: 0x100029520, symSize: 0x0 }
+  - { offset: 0x77C35, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap, symObjAddr: 0xBF60, symBinAddr: 0x10000DC50, symSize: 0x570 }
+  - { offset: 0x77C59, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap.step, symObjAddr: 0x32638, symBinAddr: 0x100029538, symSize: 0x0 }
+  - { offset: 0x77C70, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap.sttime, symObjAddr: 0x32640, symBinAddr: 0x100029540, symSize: 0x0 }
+  - { offset: 0x77C87, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap.fing, symObjAddr: 0x32650, symBinAddr: 0x100029550, symSize: 0x0 }
+  - { offset: 0x77C9E, size: 0x8, addend: 0x0, symName: _gestureTrackpadTwoFixOneDoubleTap.idf, symObjAddr: 0x32668, symBinAddr: 0x100029568, symSize: 0x0 }
+  - { offset: 0x77CF9, size: 0x8, addend: 0x0, symName: _gestureMagicMouseThumb, symObjAddr: 0x114F0, symBinAddr: 0x1000131E0, symSize: 0x510 }
+  - { offset: 0x77D21, size: 0x8, addend: 0x0, symName: _gestureMagicMouseThumb.type, symObjAddr: 0x32674, symBinAddr: 0x100029574, symSize: 0x0 }
+  - { offset: 0x77EB9, size: 0x8, addend: 0x0, symName: _simulatingByDevice, symObjAddr: 0x32678, symBinAddr: 0x100029578, symSize: 0x0 }
+  - { offset: 0x77EC3, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers, symObjAddr: 0x11A00, symBinAddr: 0x1000136F0, symSize: 0x630 }
+  - { offset: 0x77EE7, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.beforeendtime, symObjAddr: 0x180B0, symBinAddr: 0x100025520, symSize: 0x0 }
+  - { offset: 0x77EFE, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.endtime, symObjAddr: 0x180B8, symBinAddr: 0x100025528, symSize: 0x0 }
+  - { offset: 0x77F15, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.startx, symObjAddr: 0x3267C, symBinAddr: 0x10002957C, symSize: 0x0 }
+  - { offset: 0x77F2C, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.starty, symObjAddr: 0x32688, symBinAddr: 0x100029588, symSize: 0x0 }
+  - { offset: 0x77F43, size: 0x8, addend: 0x0, symName: _gestureMagicMouseSwipeThreeFingers.lastNFingers, symObjAddr: 0x32694, symBinAddr: 0x100029594, symSize: 0x0 }
+  - { offset: 0x780B0, size: 0x8, addend: 0x0, symName: _trigger, symObjAddr: 0x32698, symBinAddr: 0x100029598, symSize: 0x0 }
+  - { offset: 0x780BA, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers, symObjAddr: 0x12030, symBinAddr: 0x100013D20, symSize: 0x6C0 }
+  - { offset: 0x780DE, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.beforeendtime, symObjAddr: 0x180C0, symBinAddr: 0x100025530, symSize: 0x0 }
+  - { offset: 0x780F5, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.endtime, symObjAddr: 0x180C8, symBinAddr: 0x100025538, symSize: 0x0 }
+  - { offset: 0x7810C, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.startx, symObjAddr: 0x3269C, symBinAddr: 0x10002959C, symSize: 0x0 }
+  - { offset: 0x78123, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.starty, symObjAddr: 0x326A8, symBinAddr: 0x1000295A8, symSize: 0x0 }
+  - { offset: 0x7813A, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFingers.lastNFingers, symObjAddr: 0x326B4, symBinAddr: 0x1000295B4, symSize: 0x0 }
+  - { offset: 0x78286, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap, symObjAddr: 0x126F0, symBinAddr: 0x1000143E0, symSize: 0x450 }
+  - { offset: 0x782AE, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.sttime, symObjAddr: 0x180D0, symBinAddr: 0x100025540, symSize: 0x0 }
+  - { offset: 0x782C5, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.fing, symObjAddr: 0x326C0, symBinAddr: 0x1000295C0, symSize: 0x0 }
+  - { offset: 0x782DC, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.step, symObjAddr: 0x326D0, symBinAddr: 0x1000295D0, symSize: 0x0 }
+  - { offset: 0x782F3, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.fixId, symObjAddr: 0x326D4, symBinAddr: 0x1000295D4, symSize: 0x0 }
+  - { offset: 0x7830A, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.avgx, symObjAddr: 0x326D8, symBinAddr: 0x1000295D8, symSize: 0x0 }
+  - { offset: 0x78321, size: 0x8, addend: 0x0, symName: _gestureMagicMouseOneFixOneTap.avgy, symObjAddr: 0x326DC, symBinAddr: 0x1000295DC, symSize: 0x0 }
+  - { offset: 0x7835C, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV, symObjAddr: 0x12B40, symBinAddr: 0x100014830, symSize: 0x6C0 }
+  - { offset: 0x78384, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.baseX, symObjAddr: 0x326E0, symBinAddr: 0x1000295E0, symSize: 0x0 }
+  - { offset: 0x7839B, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.baseY, symObjAddr: 0x326E8, symBinAddr: 0x1000295E8, symSize: 0x0 }
+  - { offset: 0x783B2, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.appX, symObjAddr: 0x326F0, symBinAddr: 0x1000295F0, symSize: 0x0 }
+  - { offset: 0x783C9, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.appY, symObjAddr: 0x326F8, symBinAddr: 0x1000295F8, symSize: 0x0 }
+  - { offset: 0x783E0, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.cWindow, symObjAddr: 0x32700, symBinAddr: 0x100029600, symSize: 0x0 }
+  - { offset: 0x783F7, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.type, symObjAddr: 0x32708, symBinAddr: 0x100029608, symSize: 0x0 }
+  - { offset: 0x7840E, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.firstTouch, symObjAddr: 0x180D8, symBinAddr: 0x100025548, symSize: 0x0 }
+  - { offset: 0x78425, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.reset, symObjAddr: 0x3270C, symBinAddr: 0x10002960C, symSize: 0x0 }
+  - { offset: 0x7843C, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.fing, symObjAddr: 0x32710, symBinAddr: 0x100029610, symSize: 0x0 }
+  - { offset: 0x78453, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.lastMouseX, symObjAddr: 0x180DC, symBinAddr: 0x10002554C, symSize: 0x0 }
+  - { offset: 0x7846A, size: 0x8, addend: 0x0, symName: _gestureMagicMouseV.lastMouseY, symObjAddr: 0x180E0, symBinAddr: 0x100025550, symSize: 0x0 }
+  - { offset: 0x78513, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide, symObjAddr: 0x13200, symBinAddr: 0x100014EF0, symSize: 0x740 }
+  - { offset: 0x78537, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.step, symObjAddr: 0x32720, symBinAddr: 0x100029620, symSize: 0x0 }
+  - { offset: 0x7854E, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.fing, symObjAddr: 0x32730, symBinAddr: 0x100029630, symSize: 0x0 }
+  - { offset: 0x78565, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.mini, symObjAddr: 0x32748, symBinAddr: 0x100029648, symSize: 0x0 }
+  - { offset: 0x7857C, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.move, symObjAddr: 0x3274C, symBinAddr: 0x10002964C, symSize: 0x0 }
+  - { offset: 0x78593, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.last, symObjAddr: 0x32750, symBinAddr: 0x100029650, symSize: 0x0 }
+  - { offset: 0x785AA, size: 0x8, addend: 0x0, symName: _gestureMagicMouseTwoFixOneSlide.lastThumbPresent, symObjAddr: 0x32758, symBinAddr: 0x100029658, symSize: 0x0 }
+  - { offset: 0x78692, size: 0x8, addend: 0x0, symName: _builtinTrackpadFamilyIDs, symObjAddr: 0x18100, symBinAddr: 0x10001ED40, symSize: 0x0 }
+  - { offset: 0x786BC, size: 0x8, addend: 0x0, symName: _magicMouseFamilyIDs, symObjAddr: 0x18124, symBinAddr: 0x10001ED64, symSize: 0x0 }
+  - { offset: 0x786E0, size: 0x8, addend: 0x0, symName: _magicTrackpadFamilyIDs, symObjAddr: 0x18128, symBinAddr: 0x10001ED68, symSize: 0x0 }
+  - { offset: 0x786F8, size: 0x8, addend: 0x0, symName: _CGEventCallback, symObjAddr: 0x13F0, symBinAddr: 0x1000030E0, symSize: 0xD90 }
+  - { offset: 0x78720, size: 0x8, addend: 0x0, symName: _CGEventCallback.freePass, symObjAddr: 0x3275C, symBinAddr: 0x10002965C, symSize: 0x0 }
+  - { offset: 0x788E0, size: 0x8, addend: 0x0, symName: _mouseRecognizer, symObjAddr: 0x13DB0, symBinAddr: 0x100015AA0, symSize: 0x510 }
+  - { offset: 0x78908, size: 0x8, addend: 0x0, symName: _mouseRecognizer.timer, symObjAddr: 0x32760, symBinAddr: 0x100029660, symSize: 0x0 }
+  - { offset: 0x7891F, size: 0x8, addend: 0x0, symName: _mouseRecognizer.lpos, symObjAddr: 0x32768, symBinAddr: 0x100029668, symSize: 0x0 }
+  - { offset: 0x78943, size: 0x8, addend: 0x0, symName: _mouseRecognizer.firstPos, symObjAddr: 0x32770, symBinAddr: 0x100029670, symSize: 0x0 }
+  - { offset: 0x7895A, size: 0x8, addend: 0x0, symName: _mouseRecognizer.top, symObjAddr: 0x32778, symBinAddr: 0x100029678, symSize: 0x0 }
+  - { offset: 0x78971, size: 0x8, addend: 0x0, symName: _mouseRecognizer.bottom, symObjAddr: 0x3277C, symBinAddr: 0x10002967C, symSize: 0x0 }
+  - { offset: 0x78988, size: 0x8, addend: 0x0, symName: _mouseRecognizer.left, symObjAddr: 0x32780, symBinAddr: 0x100029680, symSize: 0x0 }
+  - { offset: 0x7899F, size: 0x8, addend: 0x0, symName: _mouseRecognizer.right, symObjAddr: 0x32784, symBinAddr: 0x100029684, symSize: 0x0 }
+  - { offset: 0x789B6, size: 0x8, addend: 0x0, symName: _mouseRecognizer.distCounter, symObjAddr: 0x32788, symBinAddr: 0x100029688, symSize: 0x0 }
+  - { offset: 0x78A52, size: 0x8, addend: 0x0, symName: _systemWideElement, symObjAddr: 0x2E6F8, symBinAddr: 0x1000255F8, symSize: 0x0 }
+  - { offset: 0x78BD6, size: 0x8, addend: 0x0, symName: _turnOffGestures, symObjAddr: 0x0, symBinAddr: 0x100001CF0, symSize: 0x20 }
+  - { offset: 0x78BEC, size: 0x8, addend: 0x0, symName: '-[Gesture addMultitouchDevice:]', symObjAddr: 0x20, symBinAddr: 0x100001D10, symSize: 0x530 }
+  - { offset: 0x78D46, size: 0x8, addend: 0x0, symName: _magicMouseCallback, symObjAddr: 0xFB0, symBinAddr: 0x100002CA0, symSize: 0x2C0 }
+  - { offset: 0x78E1F, size: 0x8, addend: 0x0, symName: _familyIsBuiltinTrackpad, symObjAddr: 0x1270, symBinAddr: 0x100002F60, symSize: 0x50 }
+  - { offset: 0x78E67, size: 0x8, addend: 0x0, symName: _familyIsMagicMouse, symObjAddr: 0x12C0, symBinAddr: 0x100002FB0, symSize: 0x50 }
+  - { offset: 0x78EAF, size: 0x8, addend: 0x0, symName: _familyIsMagicTrackpad, symObjAddr: 0x1310, symBinAddr: 0x100003000, symSize: 0x50 }
+  - { offset: 0x78EF7, size: 0x8, addend: 0x0, symName: '-[Gesture createEventTap]', symObjAddr: 0x1360, symBinAddr: 0x100003050, symSize: 0x90 }
+  - { offset: 0x78F61, size: 0x8, addend: 0x0, symName: '-[Gesture createEventTapTimer:]', symObjAddr: 0x2180, symBinAddr: 0x100003E70, symSize: 0xE0 }
+  - { offset: 0x78FB7, size: 0x8, addend: 0x0, symName: '-[Gesture init]', symObjAddr: 0x2260, symBinAddr: 0x100003F50, symSize: 0x470 }
+  - { offset: 0x790D3, size: 0x8, addend: 0x0, symName: _initNormPdf, symObjAddr: 0x26D0, symBinAddr: 0x1000043C0, symSize: 0x390 }
+  - { offset: 0x791A7, size: 0x8, addend: 0x0, symName: _initChars, symObjAddr: 0x2A60, symBinAddr: 0x100004750, symSize: 0x2B60 }
+  - { offset: 0x791CF, size: 0x8, addend: 0x0, symName: _multitouchDeviceAdded, symObjAddr: 0x55C0, symBinAddr: 0x1000072B0, symSize: 0x240 }
+  - { offset: 0x7928F, size: 0x8, addend: 0x0, symName: _multitouchDeviceRemoved, symObjAddr: 0x5800, symBinAddr: 0x1000074F0, symSize: 0x1D0 }
+  - { offset: 0x7933E, size: 0x8, addend: 0x0, symName: '-[Gesture reload]', symObjAddr: 0x59D0, symBinAddr: 0x1000076C0, symSize: 0x3C0 }
+  - { offset: 0x79432, size: 0x8, addend: 0x0, symName: '-[Gesture showHintTimer:]', symObjAddr: 0x5D90, symBinAddr: 0x100007A80, symSize: 0x80 }
+  - { offset: 0x79478, size: 0x8, addend: 0x0, symName: _finalizeStep, symObjAddr: 0x5E10, symBinAddr: 0x100007B00, symSize: 0x5F0 }
+  - { offset: 0x79543, size: 0x8, addend: 0x0, symName: '-[Gesture dealloc]', symObjAddr: 0x6400, symBinAddr: 0x1000080F0, symSize: 0x50 }
+  - { offset: 0x79579, size: 0x8, addend: 0x0, symName: _turnOffTrackpad, symObjAddr: 0x6450, symBinAddr: 0x100008140, symSize: 0x10 }
+  - { offset: 0x7958F, size: 0x8, addend: 0x0, symName: _turnOffMagicMouse, symObjAddr: 0x6460, symBinAddr: 0x100008150, symSize: 0x60 }
+  - { offset: 0x795A5, size: 0x8, addend: 0x0, symName: _turnOffCharacters, symObjAddr: 0x64C0, symBinAddr: 0x1000081B0, symSize: 0x80 }
+  - { offset: 0x795CB, size: 0x8, addend: 0x0, symName: _lenSqrF, symObjAddr: 0x6540, symBinAddr: 0x100008230, symSize: 0x80 }
+  - { offset: 0x79613, size: 0x8, addend: 0x0, symName: _lenSqr, symObjAddr: 0xC4D0, symBinAddr: 0x10000E1C0, symSize: 0x50 }
+  - { offset: 0x7966A, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke, symObjAddr: 0xC520, symBinAddr: 0x10000E210, symSize: 0x80 }
+  - { offset: 0x796BC, size: 0x8, addend: 0x0, symName: _dispatchCommand, symObjAddr: 0xC5A0, symBinAddr: 0x10000E290, symSize: 0x90 }
+  - { offset: 0x796F4, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_2, symObjAddr: 0xC630, symBinAddr: 0x10000E320, symSize: 0x50 }
+  - { offset: 0x79720, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_3, symObjAddr: 0xC680, symBinAddr: 0x10000E370, symSize: 0x80 }
+  - { offset: 0x7974C, size: 0x8, addend: 0x0, symName: _advanceStep, symObjAddr: 0xC700, symBinAddr: 0x10000E3F0, symSize: 0x6C0 }
+  - { offset: 0x797F1, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_4, symObjAddr: 0xCDC0, symBinAddr: 0x10000EAB0, symSize: 0x60 }
+  - { offset: 0x7981D, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_5, symObjAddr: 0xCE20, symBinAddr: 0x10000EB10, symSize: 0x40 }
+  - { offset: 0x7986F, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerTwo_block_invoke_6, symObjAddr: 0xCE60, symBinAddr: 0x10000EB50, symSize: 0x40 }
+  - { offset: 0x7989B, size: 0x8, addend: 0x0, symName: _clearStep, symObjAddr: 0xCEA0, symBinAddr: 0x10000EB90, symSize: 0x70 }
+  - { offset: 0x798D2, size: 0x8, addend: 0x0, symName: ___dispatchCommand_block_invoke, symObjAddr: 0xCF10, symBinAddr: 0x10000EC00, symSize: 0xE0 }
+  - { offset: 0x79953, size: 0x8, addend: 0x0, symName: _doCommand, symObjAddr: 0xCFF0, symBinAddr: 0x10000ECE0, symSize: 0x20B0 }
+  - { offset: 0x79EFB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32o, symObjAddr: 0xF0A0, symBinAddr: 0x100010D90, symSize: 0x30 }
+  - { offset: 0x79F22, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32o, symObjAddr: 0xF0D0, symBinAddr: 0x100010DC0, symSize: 0x30 }
+  - { offset: 0x79F40, size: 0x8, addend: 0x0, symName: _nameOfAxui, symObjAddr: 0xF100, symBinAddr: 0x100010DF0, symSize: 0x70 }
+  - { offset: 0x79F9C, size: 0x8, addend: 0x0, symName: _getMousePosition, symObjAddr: 0xF170, symBinAddr: 0x100010E60, symSize: 0x60 }
+  - { offset: 0x79FF4, size: 0x8, addend: 0x0, symName: _activateWindowAtPosition, symObjAddr: 0xF1D0, symBinAddr: 0x100010EC0, symSize: 0x1E0 }
+  - { offset: 0x7A0CA, size: 0x8, addend: 0x0, symName: _maximizeWindow, symObjAddr: 0xF3B0, symBinAddr: 0x1000110A0, symSize: 0xD50 }
+  - { offset: 0x7A3A9, size: 0x8, addend: 0x0, symName: _getForemostApp, symObjAddr: 0x10100, symBinAddr: 0x100011DF0, symSize: 0x150 }
+  - { offset: 0x7A414, size: 0x8, addend: 0x0, symName: _axuiUnderMouse, symObjAddr: 0x10250, symBinAddr: 0x100011F40, symSize: 0x60 }
+  - { offset: 0x7A460, size: 0x8, addend: 0x0, symName: _selectSafariTab, symObjAddr: 0x102B0, symBinAddr: 0x100011FA0, symSize: 0x160 }
+  - { offset: 0x7A53D, size: 0x8, addend: 0x0, symName: _findTabGroup2, symObjAddr: 0x10410, symBinAddr: 0x100012100, symSize: 0x370 }
+  - { offset: 0x7A71F, size: 0x8, addend: 0x0, symName: _getWindowPos, symObjAddr: 0x10780, symBinAddr: 0x100012470, symSize: 0x70 }
+  - { offset: 0x7A796, size: 0x8, addend: 0x0, symName: _getWindowSize, symObjAddr: 0x107F0, symBinAddr: 0x1000124E0, symSize: 0x70 }
+  - { offset: 0x7A80D, size: 0x8, addend: 0x0, symName: _minimizeForemostWindow, symObjAddr: 0x10860, symBinAddr: 0x100012550, symSize: 0x60 }
+  - { offset: 0x7A854, size: 0x8, addend: 0x0, symName: _maximizeForemostWindow, symObjAddr: 0x108C0, symBinAddr: 0x1000125B0, symSize: 0x60 }
+  - { offset: 0x7A89B, size: 0x8, addend: 0x0, symName: _setWindowPos, symObjAddr: 0x10920, symBinAddr: 0x100012610, symSize: 0x80 }
+  - { offset: 0x7A903, size: 0x8, addend: 0x0, symName: _setWindowSize, symObjAddr: 0x109A0, symBinAddr: 0x100012690, symSize: 0xA0 }
+  - { offset: 0x7A96F, size: 0x8, addend: 0x0, symName: _CGPointMake, symObjAddr: 0x10A40, symBinAddr: 0x100012730, symSize: 0x30 }
+  - { offset: 0x7A9BB, size: 0x8, addend: 0x0, symName: _CGSizeMake, symObjAddr: 0x10A70, symBinAddr: 0x100012760, symSize: 0x30 }
+  - { offset: 0x7AA07, size: 0x8, addend: 0x0, symName: _getScore, symObjAddr: 0x10AA0, symBinAddr: 0x100012790, symSize: 0x110 }
+  - { offset: 0x7AA82, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerOne_block_invoke, symObjAddr: 0x10BB0, symBinAddr: 0x1000128A0, symSize: 0xC0 }
+  - { offset: 0x7AAC1, size: 0x8, addend: 0x0, symName: _mouseClick, symObjAddr: 0x10C70, symBinAddr: 0x100012960, symSize: 0x140 }
+  - { offset: 0x7AB90, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerOne_block_invoke_2, symObjAddr: 0x10DB0, symBinAddr: 0x100012AA0, symSize: 0x50 }
+  - { offset: 0x7ABBC, size: 0x8, addend: 0x0, symName: ___trackpadRecognizerOne_block_invoke_3, symObjAddr: 0x10E00, symBinAddr: 0x100012AF0, symSize: 0x40 }
+  - { offset: 0x7ABFB, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke, symObjAddr: 0x10E40, symBinAddr: 0x100012B30, symSize: 0x50 }
+  - { offset: 0x7AC27, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_2, symObjAddr: 0x10E90, symBinAddr: 0x100012B80, symSize: 0xB0 }
+  - { offset: 0x7AC53, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_3, symObjAddr: 0x10F40, symBinAddr: 0x100012C30, symSize: 0x30 }
+  - { offset: 0x7AC7F, size: 0x8, addend: 0x0, symName: _setWindowPos2, symObjAddr: 0x10F70, symBinAddr: 0x100012C60, symSize: 0x60 }
+  - { offset: 0x7AD07, size: 0x8, addend: 0x0, symName: _setWindowSize2, symObjAddr: 0x10FD0, symBinAddr: 0x100012CC0, symSize: 0x60 }
+  - { offset: 0x7AD93, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_4, symObjAddr: 0x11030, symBinAddr: 0x100012D20, symSize: 0x50 }
+  - { offset: 0x7ADBF, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_5, symObjAddr: 0x11080, symBinAddr: 0x100012D70, symSize: 0x50 }
+  - { offset: 0x7ADEB, size: 0x8, addend: 0x0, symName: ___gestureTrackpadMoveResize_block_invoke_6, symObjAddr: 0x110D0, symBinAddr: 0x100012DC0, symSize: 0x50 }
+  - { offset: 0x7AE17, size: 0x8, addend: 0x0, symName: _commandForGesture, symObjAddr: 0x11120, symBinAddr: 0x100012E10, symSize: 0x1A0 }
+  - { offset: 0x7AE93, size: 0x8, addend: 0x0, symName: _setCursorWindowAtMouse, symObjAddr: 0x112C0, symBinAddr: 0x100012FB0, symSize: 0xB0 }
+  - { offset: 0x7AEFD, size: 0x8, addend: 0x0, symName: _isMouseOnEmptySpace, symObjAddr: 0x11370, symBinAddr: 0x100013060, symSize: 0x100 }
+  - { offset: 0x7AF78, size: 0x8, addend: 0x0, symName: _cosineBetweenVectors, symObjAddr: 0x11470, symBinAddr: 0x100013160, symSize: 0x80 }
+  - { offset: 0x7AFCF, size: 0x8, addend: 0x0, symName: _gestureMagicMouseMiddleClick, symObjAddr: 0x13940, symBinAddr: 0x100015630, symSize: 0x140 }
+  - { offset: 0x7B007, size: 0x8, addend: 0x0, symName: ___gestureMagicMouseV_block_invoke, symObjAddr: 0x13A80, symBinAddr: 0x100015770, symSize: 0x50 }
+  - { offset: 0x7B033, size: 0x8, addend: 0x0, symName: ___gestureMagicMouseV_block_invoke_2, symObjAddr: 0x13AD0, symBinAddr: 0x1000157C0, symSize: 0x50 }
+  - { offset: 0x7B05F, size: 0x8, addend: 0x0, symName: ___gestureMagicMouseV_block_invoke_3, symObjAddr: 0x13B20, symBinAddr: 0x100015810, symSize: 0xB0 }
+  - { offset: 0x7B08B, size: 0x8, addend: 0x0, symName: ___gestureMagicMouseV_block_invoke_4, symObjAddr: 0x13BD0, symBinAddr: 0x1000158C0, symSize: 0x50 }
+  - { offset: 0x7B0B7, size: 0x8, addend: 0x0, symName: ___CGEventCallback_block_invoke, symObjAddr: 0x13C20, symBinAddr: 0x100015910, symSize: 0x40 }
+  - { offset: 0x7B0F6, size: 0x8, addend: 0x0, symName: ___CGEventCallback_block_invoke_2, symObjAddr: 0x13C60, symBinAddr: 0x100015950, symSize: 0x40 }
+  - { offset: 0x7B135, size: 0x8, addend: 0x0, symName: ___CGEventCallback_block_invoke_3, symObjAddr: 0x13CA0, symBinAddr: 0x100015990, symSize: 0x40 }
+  - { offset: 0x7B161, size: 0x8, addend: 0x0, symName: ___CGEventCallback_block_invoke_4, symObjAddr: 0x13CE0, symBinAddr: 0x1000159D0, symSize: 0xD0 }
+  - { offset: 0x7B18D, size: 0x8, addend: 0x0, symName: ___mouseRecognizer_block_invoke, symObjAddr: 0x142C0, symBinAddr: 0x100015FB0, symSize: 0x80 }
+  - { offset: 0x7B1DF, size: 0x8, addend: 0x0, symName: ___mouseRecognizer_block_invoke_2, symObjAddr: 0x14340, symBinAddr: 0x100016030, symSize: 0x60 }
+  - { offset: 0x7B20B, size: 0x8, addend: 0x0, symName: ___mouseRecognizer_block_invoke_3, symObjAddr: 0x143A0, symBinAddr: 0x100016090, symSize: 0x40 }
+  - { offset: 0x7B237, size: 0x8, addend: 0x0, symName: ___mouseRecognizer_block_invoke_4, symObjAddr: 0x143E0, symBinAddr: 0x1000160D0, symSize: 0x50 }
+  - { offset: 0x7B263, size: 0x8, addend: 0x0, symName: _setDegreeSpan, symObjAddr: 0x14430, symBinAddr: 0x100016120, symSize: 0x6F }
+  - { offset: 0x7BE40, size: 0x8, addend: 0x0, symName: '-[CursorWindow init]', symObjAddr: 0x0, symBinAddr: 0x100016190, symSize: 0x1F0 }
+  - { offset: 0x7BEC4, size: 0x8, addend: 0x0, symName: '-[CursorWindow init]', symObjAddr: 0x0, symBinAddr: 0x100016190, symSize: 0x1F0 }
+  - { offset: 0x7BF41, size: 0x8, addend: 0x0, symName: '-[CursorWindow drawRect:]', symObjAddr: 0x1F0, symBinAddr: 0x100016380, symSize: 0xE }
+  - { offset: 0x7BFF3, size: 0x8, addend: 0x0, symName: '-[CursorView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x100016390, symSize: 0x100 }
+  - { offset: 0x7C00D, size: 0x8, addend: 0x0, symName: _cursorImageType, symObjAddr: 0x1B9C, symBinAddr: 0x1000298AC, symSize: 0x0 }
+  - { offset: 0x7C084, size: 0x8, addend: 0x0, symName: '-[CursorView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x100016390, symSize: 0x100 }
+  - { offset: 0x7C0CC, size: 0x8, addend: 0x0, symName: '-[CursorView drawRect:]', symObjAddr: 0x100, symBinAddr: 0x100016490, symSize: 0x180 }
+  - { offset: 0x7C11F, size: 0x8, addend: 0x0, symName: '-[CursorView dealloc]', symObjAddr: 0x280, symBinAddr: 0x100016610, symSize: 0x80 }
+  - { offset: 0x7C154, size: 0x8, addend: 0x0, symName: '-[CursorView moveImage]', symObjAddr: 0x300, symBinAddr: 0x100016690, symSize: 0x20 }
+  - { offset: 0x7C18D, size: 0x8, addend: 0x0, symName: '-[CursorView setMoveImage:]', symObjAddr: 0x320, symBinAddr: 0x1000166B0, symSize: 0x40 }
+  - { offset: 0x7C1CF, size: 0x8, addend: 0x0, symName: '-[CursorView resizeImage]', symObjAddr: 0x360, symBinAddr: 0x1000166F0, symSize: 0x20 }
+  - { offset: 0x7C208, size: 0x8, addend: 0x0, symName: '-[CursorView setResizeImage:]', symObjAddr: 0x380, symBinAddr: 0x100016710, symSize: 0x40 }
+  - { offset: 0x7C24A, size: 0x8, addend: 0x0, symName: '-[CursorView tabImage]', symObjAddr: 0x3C0, symBinAddr: 0x100016750, symSize: 0x20 }
+  - { offset: 0x7C283, size: 0x8, addend: 0x0, symName: '-[CursorView setTabImage:]', symObjAddr: 0x3E0, symBinAddr: 0x100016770, symSize: 0x32 }
+  - { offset: 0x7C333, size: 0x8, addend: 0x0, symName: '+[Settings noteSettingsUpdated2]', symObjAddr: 0x0, symBinAddr: 0x1000167B0, symSize: 0x100 }
+  - { offset: 0x7C378, size: 0x8, addend: 0x0, symName: _settings, symObjAddr: 0x69F8, symBinAddr: 0x1000298B8, symSize: 0x0 }
+  - { offset: 0x7C394, size: 0x8, addend: 0x0, symName: _trackpadMap, symObjAddr: 0x6A58, symBinAddr: 0x100029918, symSize: 0x0 }
+  - { offset: 0x7C3AA, size: 0x8, addend: 0x0, symName: _magicMouseMap, symObjAddr: 0x6A60, symBinAddr: 0x100029920, symSize: 0x0 }
+  - { offset: 0x7C3C0, size: 0x8, addend: 0x0, symName: _recognitionMap, symObjAddr: 0x6A68, symBinAddr: 0x100029928, symSize: 0x0 }
+  - { offset: 0x7C3D6, size: 0x8, addend: 0x0, symName: _clickSpeed, symObjAddr: 0x6A00, symBinAddr: 0x1000298C0, symSize: 0x0 }
+  - { offset: 0x7C3F4, size: 0x8, addend: 0x0, symName: _stvt, symObjAddr: 0x6A04, symBinAddr: 0x1000298C4, symSize: 0x0 }
+  - { offset: 0x7C40A, size: 0x8, addend: 0x0, symName: _enAll, symObjAddr: 0x69F0, symBinAddr: 0x1000298B0, symSize: 0x0 }
+  - { offset: 0x7C428, size: 0x8, addend: 0x0, symName: _logLevel, symObjAddr: 0x6A08, symBinAddr: 0x1000298C8, symSize: 0x0 }
+  - { offset: 0x7C43E, size: 0x8, addend: 0x0, symName: _enTPAll, symObjAddr: 0x6A0C, symBinAddr: 0x1000298CC, symSize: 0x0 }
+  - { offset: 0x7C454, size: 0x8, addend: 0x0, symName: _enHanded, symObjAddr: 0x6A10, symBinAddr: 0x1000298D0, symSize: 0x0 }
+  - { offset: 0x7C46A, size: 0x8, addend: 0x0, symName: _enMMAll, symObjAddr: 0x6A14, symBinAddr: 0x1000298D4, symSize: 0x0 }
+  - { offset: 0x7C480, size: 0x8, addend: 0x0, symName: _enMMHanded, symObjAddr: 0x6A18, symBinAddr: 0x1000298D8, symSize: 0x0 }
+  - { offset: 0x7C496, size: 0x8, addend: 0x0, symName: _enCharRegTP, symObjAddr: 0x6A1C, symBinAddr: 0x1000298DC, symSize: 0x0 }
+  - { offset: 0x7C4AC, size: 0x8, addend: 0x0, symName: _enCharRegMM, symObjAddr: 0x6A20, symBinAddr: 0x1000298E0, symSize: 0x0 }
+  - { offset: 0x7C4C2, size: 0x8, addend: 0x0, symName: _charRegIndexRingDistance, symObjAddr: 0x6A2C, symBinAddr: 0x1000298EC, symSize: 0x0 }
+  - { offset: 0x7C4D8, size: 0x8, addend: 0x0, symName: _charRegMouseButton, symObjAddr: 0x6A30, symBinAddr: 0x1000298F0, symSize: 0x0 }
+  - { offset: 0x7C4EE, size: 0x8, addend: 0x0, symName: _enOneDrawing, symObjAddr: 0x6A24, symBinAddr: 0x1000298E4, symSize: 0x0 }
+  - { offset: 0x7C504, size: 0x8, addend: 0x0, symName: _enTwoDrawing, symObjAddr: 0x6A28, symBinAddr: 0x1000298E8, symSize: 0x0 }
+  - { offset: 0x7C51A, size: 0x8, addend: 0x0, symName: _trackpadCommands, symObjAddr: 0x6A38, symBinAddr: 0x1000298F8, symSize: 0x0 }
+  - { offset: 0x7C536, size: 0x8, addend: 0x0, symName: _magicMouseCommands, symObjAddr: 0x6A40, symBinAddr: 0x100029900, symSize: 0x0 }
+  - { offset: 0x7C54C, size: 0x8, addend: 0x0, symName: _recognitionCommands, symObjAddr: 0x6A48, symBinAddr: 0x100029908, symSize: 0x0 }
+  - { offset: 0x7C562, size: 0x8, addend: 0x0, symName: _hasloaded, symObjAddr: 0x6A70, symBinAddr: 0x100029930, symSize: 0x0 }
+  - { offset: 0x7C580, size: 0x8, addend: 0x0, symName: _isPrefPane, symObjAddr: 0x6A50, symBinAddr: 0x100029910, symSize: 0x0 }
+  - { offset: 0x7C596, size: 0x8, addend: 0x0, symName: _notSynchronize, symObjAddr: 0x6A74, symBinAddr: 0x10002968C, symSize: 0x0 }
+  - { offset: 0x7C5A2, size: 0x8, addend: 0x0, symName: '+[Settings noteSettingsUpdated2]', symObjAddr: 0x0, symBinAddr: 0x1000167B0, symSize: 0x100 }
+  - { offset: 0x7C5E6, size: 0x8, addend: 0x0, symName: '+[Settings setKey:withInt:]', symObjAddr: 0x100, symBinAddr: 0x1000168B0, symSize: 0x70 }
+  - { offset: 0x7C648, size: 0x8, addend: 0x0, symName: '+[Settings setKey:withFloat:]', symObjAddr: 0x170, symBinAddr: 0x100016920, symSize: 0x70 }
+  - { offset: 0x7C6AA, size: 0x8, addend: 0x0, symName: '+[Settings setKey:with:]', symObjAddr: 0x1E0, symBinAddr: 0x100016990, symSize: 0x50 }
+  - { offset: 0x7C70C, size: 0x8, addend: 0x0, symName: '+[Settings recognitionDefault]', symObjAddr: 0x230, symBinAddr: 0x1000169E0, symSize: 0xED0 }
+  - { offset: 0x7C770, size: 0x8, addend: 0x0, symName: '+[Settings trackpadDefault]', symObjAddr: 0x1100, symBinAddr: 0x1000178B0, symSize: 0x900 }
+  - { offset: 0x7C7D4, size: 0x8, addend: 0x0, symName: '+[Settings magicMouseDefault]', symObjAddr: 0x1A00, symBinAddr: 0x1000181B0, symSize: 0x7D0 }
+  - { offset: 0x7C838, size: 0x8, addend: 0x0, symName: '+[Settings createDefaultPlist]', symObjAddr: 0x21D0, symBinAddr: 0x100018980, symSize: 0x270 }
+  - { offset: 0x7C86D, size: 0x8, addend: 0x0, symName: '+[Settings loadSettings2:]', symObjAddr: 0x2440, symBinAddr: 0x100018BF0, symSize: 0x4D0 }
+  - { offset: 0x7C8C0, size: 0x8, addend: 0x0, symName: '___26+[Settings loadSettings2:]_block_invoke', symObjAddr: 0x2910, symBinAddr: 0x1000190C0, symSize: 0x450 }
+  - { offset: 0x7C968, size: 0x8, addend: 0x0, symName: '+[Settings loadSettings]', symObjAddr: 0x2D60, symBinAddr: 0x100019510, symSize: 0xB0 }
+  - { offset: 0x7C9DE, size: 0x8, addend: 0x0, symName: '+[Settings loadSettings:]', symObjAddr: 0x2E10, symBinAddr: 0x1000195C0, symSize: 0x89 }
+  - { offset: 0x7CBAB, size: 0x8, addend: 0x0, symName: '-[GestureWindow init]', symObjAddr: 0x0, symBinAddr: 0x100019650, symSize: 0x2B0 }
+  - { offset: 0x7CBC5, size: 0x8, addend: 0x0, symName: _trackpadWidth, symObjAddr: 0xBC8, symBinAddr: 0x100025554, symSize: 0x0 }
+  - { offset: 0x7CBE3, size: 0x8, addend: 0x0, symName: _trackpadHeight, symObjAddr: 0xBCC, symBinAddr: 0x100025558, symSize: 0x0 }
+  - { offset: 0x7CBF9, size: 0x8, addend: 0x0, symName: _magicMouseWidth, symObjAddr: 0xBD0, symBinAddr: 0x10002555C, symSize: 0x0 }
+  - { offset: 0x7CC0F, size: 0x8, addend: 0x0, symName: _magicMouseHeight, symObjAddr: 0xBD4, symBinAddr: 0x100025560, symSize: 0x0 }
+  - { offset: 0x7CCF0, size: 0x8, addend: 0x0, symName: '-[GestureWindow init]', symObjAddr: 0x0, symBinAddr: 0x100019650, symSize: 0x2B0 }
+  - { offset: 0x7CD7C, size: 0x8, addend: 0x0, symName: '-[GestureWindow setUpWindowForTrackpad]', symObjAddr: 0x2B0, symBinAddr: 0x100019900, symSize: 0x370 }
+  - { offset: 0x7CE82, size: 0x8, addend: 0x0, symName: '-[GestureWindow setUpWindowForMagicMouse]', symObjAddr: 0x620, symBinAddr: 0x100019C70, symSize: 0x120 }
+  - { offset: 0x7CF1A, size: 0x8, addend: 0x0, symName: '-[GestureWindow setPossibleAlphabet:]', symObjAddr: 0x740, symBinAddr: 0x100019D90, symSize: 0x40 }
+  - { offset: 0x7CF5E, size: 0x8, addend: 0x0, symName: '-[GestureWindow drawRect:]', symObjAddr: 0x780, symBinAddr: 0x100019DD0, symSize: 0x10 }
+  - { offset: 0x7CFA2, size: 0x8, addend: 0x0, symName: '-[GestureWindow addPointX:Y:]', symObjAddr: 0x790, symBinAddr: 0x100019DE0, symSize: 0x50 }
+  - { offset: 0x7CFF5, size: 0x8, addend: 0x0, symName: '-[GestureWindow addRelativePointX:Y:]', symObjAddr: 0x7E0, symBinAddr: 0x100019E30, symSize: 0x50 }
+  - { offset: 0x7D048, size: 0x8, addend: 0x0, symName: '-[GestureWindow clear]', symObjAddr: 0x830, symBinAddr: 0x100019E80, symSize: 0x40 }
+  - { offset: 0x7D07D, size: 0x8, addend: 0x0, symName: '-[GestureWindow refresh]', symObjAddr: 0x870, symBinAddr: 0x100019EC0, symSize: 0x40 }
+  - { offset: 0x7D0B2, size: 0x8, addend: 0x0, symName: '-[GestureWindow setHintText:]', symObjAddr: 0x8B0, symBinAddr: 0x100019F00, symSize: 0x50 }
+  - { offset: 0x7D0F6, size: 0x8, addend: 0x0, symName: '-[GestureWindow dealloc]', symObjAddr: 0x900, symBinAddr: 0x100019F50, symSize: 0x4E }
+  - { offset: 0x7D1B9, size: 0x8, addend: 0x0, symName: '-[GestureView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x100019FA0, symSize: 0xA0 }
+  - { offset: 0x7D216, size: 0x8, addend: 0x0, symName: '-[GestureView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x100019FA0, symSize: 0xA0 }
+  - { offset: 0x7D25E, size: 0x8, addend: 0x0, symName: '-[GestureView drawRect:]', symObjAddr: 0xA0, symBinAddr: 0x10001A040, symSize: 0x610 }
+  - { offset: 0x7D33F, size: 0x8, addend: 0x0, symName: _CGRectMake, symObjAddr: 0x6B0, symBinAddr: 0x10001A650, symSize: 0x50 }
+  - { offset: 0x7D3AB, size: 0x8, addend: 0x0, symName: _CGPointMake, symObjAddr: 0x700, symBinAddr: 0x10001A6A0, symSize: 0x30 }
+  - { offset: 0x7D431, size: 0x8, addend: 0x0, symName: '-[GestureView addPointX:Y:]', symObjAddr: 0x730, symBinAddr: 0x10001A6D0, symSize: 0x1F0 }
+  - { offset: 0x7D4F4, size: 0x8, addend: 0x0, symName: '-[GestureView addRelativePointX:Y:]', symObjAddr: 0x920, symBinAddr: 0x10001A8C0, symSize: 0x190 }
+  - { offset: 0x7D5A7, size: 0x8, addend: 0x0, symName: '-[GestureView clear]', symObjAddr: 0xAB0, symBinAddr: 0x10001AA50, symSize: 0x50 }
+  - { offset: 0x7D5DC, size: 0x8, addend: 0x0, symName: '-[GestureView setHintText:]', symObjAddr: 0xB00, symBinAddr: 0x10001AAA0, symSize: 0x40 }
+  - { offset: 0x7D620, size: 0x8, addend: 0x0, symName: '-[GestureView dealloc]', symObjAddr: 0xB40, symBinAddr: 0x10001AAE0, symSize: 0x4E }
+  - { offset: 0x7D6EB, size: 0x8, addend: 0x0, symName: '-[SizeHistory initWithCurRect:SaveRect:]', symObjAddr: 0x0, symBinAddr: 0x10001AB30, symSize: 0xB0 }
+  - { offset: 0x7D768, size: 0x8, addend: 0x0, symName: '-[SizeHistory initWithCurRect:SaveRect:]', symObjAddr: 0x0, symBinAddr: 0x10001AB30, symSize: 0xB0 }
+  - { offset: 0x7D7BF, size: 0x8, addend: 0x0, symName: '-[SizeHistory curRect]', symObjAddr: 0xB0, symBinAddr: 0x10001ABE0, symSize: 0x40 }
+  - { offset: 0x7D7F8, size: 0x8, addend: 0x0, symName: '-[SizeHistory savRect]', symObjAddr: 0xF0, symBinAddr: 0x10001AC20, symSize: 0x40 }
+  - { offset: 0x7D831, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey initWithKey:]', symObjAddr: 0x130, symBinAddr: 0x10001AC60, symSize: 0x60 }
+  - { offset: 0x7D879, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey setWindowRef:]', symObjAddr: 0x190, symBinAddr: 0x10001ACC0, symSize: 0x40 }
+  - { offset: 0x7D8BD, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey copyWithZone:]', symObjAddr: 0x1D0, symBinAddr: 0x10001AD00, symSize: 0x60 }
+  - { offset: 0x7D914, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey dealloc]', symObjAddr: 0x230, symBinAddr: 0x10001AD60, symSize: 0x50 }
+  - { offset: 0x7D949, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey isEqual:]', symObjAddr: 0x280, symBinAddr: 0x10001ADB0, symSize: 0x30 }
+  - { offset: 0x7D991, size: 0x8, addend: 0x0, symName: '-[SizeHistoryKey hash]', symObjAddr: 0x2B0, symBinAddr: 0x10001ADE0, symSize: 0x23 }
+  - { offset: 0x7DA54, size: 0x8, addend: 0x0, symName: '-[KeyUtility init]', symObjAddr: 0x0, symBinAddr: 0x10001AE10, symSize: 0x140 }
+  - { offset: 0x7DA90, size: 0x8, addend: 0x0, symName: _a, symObjAddr: 0x3370, symBinAddr: 0x100029690, symSize: 0x0 }
+  - { offset: 0x7DAE4, size: 0x8, addend: 0x0, symName: '-[KeyUtility init]', symObjAddr: 0x0, symBinAddr: 0x10001AE10, symSize: 0x140 }
+  - { offset: 0x7DB3B, size: 0x8, addend: 0x0, symName: _languageChanged, symObjAddr: 0x140, symBinAddr: 0x10001AF50, symSize: 0x150 }
+  - { offset: 0x7DBCA, size: 0x8, addend: 0x0, symName: '-[KeyUtility simulateKeyCode:ShftDown:CtrlDown:AltDown:CmdDown:]', symObjAddr: 0x290, symBinAddr: 0x10001B0A0, symSize: 0x140 }
+  - { offset: 0x7DC4A, size: 0x8, addend: 0x0, symName: '-[KeyUtility simulateKey:ShftDown:CtrlDown:AltDown:CmdDown:]', symObjAddr: 0x3D0, symBinAddr: 0x10001B1E0, symSize: 0xC0 }
+  - { offset: 0x7DCD9, size: 0x8, addend: 0x0, symName: '-[KeyUtility simulateSpecialKey:]', symObjAddr: 0x490, symBinAddr: 0x10001B2A0, symSize: 0x150 }
+  - { offset: 0x7DD4A, size: 0x8, addend: 0x0, symName: '-[KeyUtility charToCode:]', symObjAddr: 0x5E0, symBinAddr: 0x10001B3F0, symSize: 0x50 }
+  - { offset: 0x7DD92, size: 0x8, addend: 0x0, symName: '+[KeyUtility codeToChar:]', symObjAddr: 0x630, symBinAddr: 0x10001B440, symSize: 0x5C4 }
 ...
